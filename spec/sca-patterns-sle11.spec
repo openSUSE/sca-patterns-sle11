@@ -1,6 +1,3 @@
-#
-# spec file for package scdiag (Version 1.0)
-#
 # Copyright (C) 2013 SUSE LLC
 # This file and all modifications and additions to the pristine
 # package are under the same license as the package itself.
@@ -14,6 +11,8 @@
 %define patuser root
 %define patgrp root
 %define patdir /var/opt/%{produser}/patterns
+%define mode 544
+%define category SLE
 
 Name:         sca-patterns-sle11
 Summary:      Supportconfig Analysis Patterns for SLE11
@@ -22,7 +21,7 @@ Distribution: SUSE Linux Enterprise
 Vendor:       SUSE Support
 License:      GPLv2
 Autoreqprov:  on
-Version:      1.1
+Version:      1.2
 Release:      1
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
@@ -36,33 +35,47 @@ Authors:
 --------
     Jason Record <jrecord@suse.com>
 
-%files
-%defattr(-,%{patuser},%{patgrp})
-%dir /var/opt/%{produser}
-%dir %{patdir}
-%dir %{patdir}/SLE
-%dir %{patdir}/SLE/sle11all
-%dir %{patdir}/SLE/sle11sp0
-%dir %{patdir}/SLE/sle11sp1
-%dir %{patdir}/SLE/sle11sp2
-%dir %{patdir}/SLE/sle11sp3
-%attr(555,%{patuser},%{patgrp}) %{patdir}/SLE/sle11all/*
-%attr(555,%{patuser},%{patgrp}) %{patdir}/SLE/sle11sp0/*
-%attr(555,%{patuser},%{patgrp}) %{patdir}/SLE/sle11sp1/*
-%attr(555,%{patuser},%{patgrp}) %{patdir}/SLE/sle11sp2/*
-%attr(555,%{patuser},%{patgrp}) %{patdir}/SLE/sle11sp3/*
-
 %prep
 %setup -q
 
 %build
-make build
 
 %install
-make install
+pwd;ls -la
+rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT/%{patdir}/%{category}
+install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11all
+install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp0
+install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp1
+install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp2
+install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp3
+install -m %{mode} patterns/%{category}/sle11all/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11all
+install -m %{mode} patterns/%{category}/sle11sp0/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp0
+install -m %{mode} patterns/%{category}/sle11sp1/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp1
+install -m %{mode} patterns/%{category}/sle11sp2/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp2
+install -m %{mode} patterns/%{category}/sle11sp3/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp3
+
+%files
+%defattr(-,%{patuser},%{patgrp})
+%dir /var/opt/%{produser}
+%dir %{patdir}
+%dir %{patdir}/%{category}
+%dir %{patdir}/%{category}/sle11all
+%dir %{patdir}/%{category}/sle11sp0
+%dir %{patdir}/%{category}/sle11sp1
+%dir %{patdir}/%{category}/sle11sp2
+%dir %{patdir}/%{category}/sle11sp3
+%attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11all/*
+%attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp0/*
+%attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp1/*
+%attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp2/*
+%attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp3/*
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %changelog
-* Wed Dec 18 2013 jrecord@suse.com
+* Wed Dec 20 2013 jrecord@suse.com
 - separated as individual RPM package
 - updated vmware-00001.pl link
 - added time consideration to lastdown-3301593.py
