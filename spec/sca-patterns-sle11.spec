@@ -6,11 +6,11 @@
 # norootforbuild
 # neededforbuild
 
-%define produser sca
-%define prodgrp sdp
+%define sca_common sca
+%define patdirbase /usr/lib/%{sca_common}
+%define patdir %{patdirbase}/patterns
 %define patuser root
 %define patgrp root
-%define patdir /var/opt/%{produser}/patterns
 %define mode 544
 %define category SLE
 
@@ -22,8 +22,8 @@ Distribution: SUSE Linux Enterprise
 Vendor:       SUSE Support
 License:      GPL-2.0
 Autoreqprov:  on
-Version:      1.2
-Release:      1
+Version:      1.3
+Release:      0
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
 Buildarch:    noarch
@@ -58,7 +58,7 @@ install -m %{mode} patterns/%{category}/sle11sp3/* $RPM_BUILD_ROOT/%{patdir}/%{c
 
 %files
 %defattr(-,%{patuser},%{patgrp})
-%dir /var/opt/%{produser}
+%dir %{patdirbase}
 %dir %{patdir}
 %dir %{patdir}/%{category}
 %dir %{patdir}/%{category}/sle11all
@@ -76,6 +76,9 @@ install -m %{mode} patterns/%{category}/sle11sp3/* $RPM_BUILD_ROOT/%{patdir}/%{c
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Thu Jan 16 2014 jrecord@suse.com
+- relocated files according to FHS
+
 * Wed Dec 20 2013 jrecord@suse.com
 - separated as individual RPM package
 - updated vmware-00001.pl link
