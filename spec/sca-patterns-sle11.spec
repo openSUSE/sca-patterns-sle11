@@ -1,4 +1,4 @@
-# Copyright (C) 2013 SUSE LLC
+# Copyright (C) 2013,2014 SUSE LLC
 # This file and all modifications and additions to the pristine
 # package are under the same license as the package itself.
 #
@@ -21,7 +21,7 @@ Group:        Documentation/SuSE
 License:      GPL-2.0
 Autoreqprov:  on
 Version:      1.3
-Release:      1
+Release:      2
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
 Buildarch:    noarch
@@ -74,6 +74,9 @@ install -m %{mode} patterns/%{category}/sle11sp3/* $RPM_BUILD_ROOT/%{patdir}/%{c
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Tue Jan 28 2014 jrecord@suse.com
+- includes pertinent patterns from sca-patterns-basic
+
 * Thu Jan 16 2014 jrecord@suse.com
 - relocated files according to FHS
 
