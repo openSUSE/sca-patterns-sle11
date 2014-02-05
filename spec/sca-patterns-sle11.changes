@@ -1,0 +1,40 @@
+-------------------------------------------------------------------
+Fri Jan 31 19:42:25 UTC 2014 - jrecord@suse.com
+
+- added
+  sle11all/net-7007649.py
+- includes pertinent patterns from sca-patterns-sleall
+- includes pertinent patterns from sca-patterns-samba
+- includes pertinent patterns from sca-patterns-basic
+
+-------------------------------------------------------------------
+Thu Jan 16 10:54:20 MST 2014 jrecord@suse.com
+
+- relocated files according to FHS
+
+-------------------------------------------------------------------
+Wed Dec 20 10:54:20 MST 2013 jrecord@suse.com
+
+- separated as individual RPM package
+- updated vmware-00001.pl link
+- added time consideration to lastdown-3301593.py
+- additional error checking in lastdown-3301593.py
+- added
+  tmp-7002723.py sleall
+  firefox-SUSE-SU-2013_1678-1a.pl sle11sp3
+  firefox-SUSE-SU-2013_1678-1b.pl sle11sp2
+  firefox-SUSE-SU-2013_1678-1c.pl sle11sp1
+  flash-SUSE-SU-2013_1716-1a.pl sle11sp3
+  flash-SUSE-SU-2013_1716-1b.pl sle11sp2
+  java-SUSE-SU-2013_1677-2a.pl sle11sp3
+  java-SUSE-SU-2013_1677-2b.pl sle11sp2
+  java-SUSE-SU-2013_1677-2c.pl sle11sp1
+  java-SUSE-SU-2013_1677-3a.pl sle11sp3
+  java-SUSE-SU-2013_1677-3b.pl sle11sp2
+  kdev-7003734.py sle11all
+  kernel-SUSE-SU-2013_1748-1.pl sle11sp2
+  kernel-SUSE-SU-2013_1749-1.pl sle11sp3
+  xfs-7013481a.py sle11sp2
+  xfs-7013481b.py sle11sp3
+  xfs-7014242.py sle11all
+
