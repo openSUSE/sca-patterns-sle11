@@ -24,7 +24,7 @@ Group:        Documentation/SuSE
 License:      GPL-2.0
 Autoreqprov:  on
 Version:      1.3
-Release:      6
+Release:      7
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
 Buildarch:    noarch
@@ -51,6 +51,8 @@ install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp0
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp1
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp2
 install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp3
+install -d $RPM_BUILD_ROOT/usr/share/doc/packages/%{sca_common}
+install -m 444 patterns/COPYING.GPLv2 $RPM_BUILD_ROOT/usr/share/doc/packages/%{sca_common}
 install -m %{mode} patterns/%{category}/sle11all/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11all
 install -m %{mode} patterns/%{category}/sle11sp0/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp0
 install -m %{mode} patterns/%{category}/sle11sp1/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp1
@@ -67,6 +69,8 @@ install -m %{mode} patterns/%{category}/sle11sp3/* $RPM_BUILD_ROOT/%{patdir}/%{c
 %dir %{patdir}/%{category}/sle11sp1
 %dir %{patdir}/%{category}/sle11sp2
 %dir %{patdir}/%{category}/sle11sp3
+%dir /usr/share/doc/packages/%{sca_common}
+%doc %attr(-,root,root) /usr/share/doc/packages/%{sca_common}/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11all/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp0/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp1/*
