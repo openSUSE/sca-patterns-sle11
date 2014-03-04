@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Tue Mar  4 22:55:37 UTC 2014 - jrecord@suse.com
+
+- New patterns
+  sle11sp2/ipset-7014180.py
+  sle11sp3/ipset-7014180.py
+  sle11all/reg-7014660.py
+
+-------------------------------------------------------------------
 Tue Mar  4 16:49:22 UTC 2014 - jrecord@suse.com
 
 - Fixed out of range index errors
