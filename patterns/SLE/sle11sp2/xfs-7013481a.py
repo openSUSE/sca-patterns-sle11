@@ -59,8 +59,12 @@ def xfsVolumesMounted():
 	if Core.getSection(fileOpen, section, content):
 		for line in content:
 			FIELDS = content[line].split()
-			if "xfs" in FIELDS[FSTYPE]:
-				return True
+			FIELDS_LEN = len(FIELDS)
+			if( FIELDS_LEN > FSTYPE ):
+#				print "len(FIELDS) = " + str(FIELDS_LEN)
+#				print "FIELDS = " + str(FIELDS)
+				if "xfs" in FIELDS[FSTYPE]:
+					return True
 	return False
 
 def oopsFound():

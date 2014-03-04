@@ -2,10 +2,10 @@
 
 # Title:       xfs_growfs causes kernel Oops
 # Description: Using xfs_growfs to expand an XFS filesystem causes a kernel Oops
-# Modified:    2013 Dec 10
+# Modified:    2014 Mar 4
 #
 ##############################################################################
-# Copyright (C) 2013 SUSE LLC
+# Copyright (C) 2013,2014 SUSE LLC
 ##############################################################################
 #
 # This program is free software; you can redistribute it and/or modify
@@ -59,8 +59,12 @@ def xfsVolumesMounted():
 	if Core.getSection(fileOpen, section, content):
 		for line in content:
 			FIELDS = content[line].split()
-			if "xfs" in FIELDS[FSTYPE]:
-				return True
+			FIELDS_LEN = len(FIELDS)
+			if( FIELDS_LEN > FSTYPE ):
+#				print "len(FIELDS) = " + str(FIELDS_LEN)
+#				print "FIELDS = " + str(FIELDS)
+				if "xfs" in FIELDS[FSTYPE]:
+					return True
 	return False
 
 def oopsFound():

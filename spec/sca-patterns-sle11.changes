@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Tue Mar  4 16:49:22 UTC 2014 - jrecord@suse.com
+
+- Fixed out of range index errors
+  sle11all/xfs-7014242.py
+  sle11sp2/xfs-7013481a.py
+  sle11sp3/xfs-7013481b.py
+  sle11all/bhc-memused-00001.pl
+
+-------------------------------------------------------------------
 Sat Feb  8 22:29:15 UTC 2014 - jrecord@suse.com
 
 - Packaged COPYING.GPLv2
