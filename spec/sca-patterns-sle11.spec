@@ -16,7 +16,6 @@
 %define patgrp root
 %define mode 544
 %define category SLE
-%define fdupes
 
 Name:         sca-patterns-sle11
 Summary:      Supportconfig Analysis Patterns for SLE11
@@ -25,7 +24,7 @@ Group:        System/Monitoring
 License:      GPL-2.0
 Autoreqprov:  on
 Version:      1.3
-Release:      11
+Release:      12
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
 Buildarch:    noarch
