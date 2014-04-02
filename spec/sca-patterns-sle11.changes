@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Wed Apr  2 17:48:00 UTC 2014 - jrecord@suse.com
+
+- New patterns
+  sle11sp3/ruby-SUSE-SU-2013_1828-1.pl
+  sle11sp2/ruby-SUSE-SU-2013_1828-1.pl
+  sle11sp3/mozilla-SUSE-SU-2013_1807-1.pl
+  sle11sp2/mozilla-SUSE-SU-2013_1807-1.pl
+  sle11sp1/mozilla-SUSE-SU-2013_1807-1.pl
+
+-------------------------------------------------------------------
 Mon Mar 31 20:50:49 UTC 2014 - jrecord@suse.com
 
 - New patterns
