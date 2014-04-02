@@ -1,7 +1,11 @@
 -------------------------------------------------------------------
-Wed Apr  2 21:00:07 UTC 2014 - jrecord@suse.com
+Wed Apr  2 21:44:13 UTC 2014 - jrecord@suse.com
 
-- New patterns
+- New Security Patterns
+  sle11sp3/flash-SUSE-SU-2014_0290-1.pl
+  sle11sp3/javaibm-SUSE-SU-2014_0266-3.pl
+  sle11sp1/javaibm-SUSE-SU-2014_0266-3.pl
+  sle11sp2/javaibm-SUSE-SU-2014_0266-2.pl
   sle11sp2/firefox-SUSE-SU-2014_0248-2.pl
   sle11sp1/firefox-SUSE-SU-2014_0248-2.pl
   sle11sp3/firefox-SUSE-SU-2014_0248-1.pl
