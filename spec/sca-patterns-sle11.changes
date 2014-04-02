@@ -1,7 +1,17 @@
 -------------------------------------------------------------------
-Wed Apr  2 19:23:36 UTC 2014 - jrecord@suse.com
+Wed Apr  2 21:00:07 UTC 2014 - jrecord@suse.com
 
 - New patterns
+  sle11sp2/firefox-SUSE-SU-2014_0248-2.pl
+  sle11sp1/firefox-SUSE-SU-2014_0248-2.pl
+  sle11sp3/firefox-SUSE-SU-2014_0248-1.pl
+  sle11sp3/javaibm-SUSE-SU-2014_0246-1.pl
+  sle11sp3/flash-SUSE-SU-2014_0221-1.pl
+  sle11sp2/flash-SUSE-SU-2014_0221-1.pl
+  sle11sp3/puppet-SUSE-SU-2014_0155-1.pl
+  sle11sp2/puppet-SUSE-SU-2014_0155-1.pl
+  sle11sp3/certs-SUSE-SU-2014_0025-1.pl
+  sle11sp2/certs-SUSE-SU-2014_0025-1.pl
   sle11sp3/samba-SUSE-SU-2014_0024-1.pl
   sle11sp2/samba-SUSE-SU-2014_0024-1.pl
   sle11sp3/acroread-SUSE-SU-2013_1967-1.pl
