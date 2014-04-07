@@ -1,4 +1,17 @@
 -------------------------------------------------------------------
+Mon Apr  7 15:39:25 UTC 2014 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp1/xen-SUSE-SU-2014_0446-1.pl
+  sle11sp2/xen-SUSE-SU-2014_0372-1.pl
+  sle11sp3/xen-SUSE-SU-2014_0373-1.pl
+  sle11sp3/flash-SUSE-SU-2014_0387-1.pl
+  sle11sp3/firefox-SUSE-SU-2014_0418-1.pl
+  sle11sp1/gnutls-SUSE-SU-2014_0322-1.pl
+  sle11sp2/gnutls-SUSE-SU-2014_0323-1.pl
+  sle11sp3/gnutls-SUSE-SU-2014_0319-1.pl
+
+-------------------------------------------------------------------
 Wed Apr  2 21:44:13 UTC 2014 - jrecord@suse.com
 
 - New Security Patterns
