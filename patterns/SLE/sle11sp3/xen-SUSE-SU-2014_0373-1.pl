@@ -2,7 +2,7 @@
 
 # Title:       Xen SA Important SUSE-SU-2014:0373-1
 # Description: solves 12 vulnerabilities
-# Modified:    2014 Apr 07
+# Modified:    2014 Apr 08
 #
 ##############################################################################
 # Copyright (C) 2014 SUSE LLC
@@ -53,7 +53,7 @@ use SDP::SUSE;
 ##############################################################################
 
 SDP::Core::processOptions();
-my $NAME = 'LTSS Xen';
+my $NAME = 'Xen';
 my $MAIN_PACKAGE = 'xen-tools';
 my $SEVERITY = 'Important';
 my $TAG = 'SUSE-SU-2014:0373-1';

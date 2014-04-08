@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Tue Apr  8 22:16:18 UTC 2014 - jrecord@suse.com
+
+- Removed LTSS tag in sle11sp3/xen-SUSE-SU-2014_0373-1.pl
+
+-------------------------------------------------------------------
 Mon Apr  7 15:39:25 UTC 2014 - jrecord@suse.com
 
 - New Security Patterns
