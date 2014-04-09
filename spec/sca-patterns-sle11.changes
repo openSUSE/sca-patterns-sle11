@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Apr  9 17:57:53 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11all/lastlogin-7014881.py
+  sle11sp3/mcelog_AMD-7013006.py
+
+-------------------------------------------------------------------
 Tue Apr  8 22:16:18 UTC 2014 - jrecord@suse.com
 
 - Removed LTSS tag in sle11sp3/xen-SUSE-SU-2014_0373-1.pl
