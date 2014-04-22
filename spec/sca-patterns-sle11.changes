@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Tue Apr 22 15:26:34 UTC 2014 - jrecord@suse.com
+Tue Apr 22 15:47:43 UTC 2014 - jrecord@suse.com
 
-- Fixed sle11all/bhc-kerneltaint-00001.pl to check for invalid taint
+- Fixed Argument "" isn't numeric in fsaio-00001.pl
+- Fixed bhc-kerneltaint-00001.pl to check for invalid taint
 
 -------------------------------------------------------------------
 Wed Apr  9 17:57:53 UTC 2014 - jrecord@suse.com
