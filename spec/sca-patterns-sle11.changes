@@ -1,6 +1,8 @@
 -------------------------------------------------------------------
-Tue Apr 22 15:54:42 UTC 2014 - jrecord@suse.com
+Tue Apr 22 16:07:04 UTC 2014 - jrecord@suse.com
 
+- Fixed Use of uninitialized value in addition in bhc-cpucs-00001.pl
+- Fixed Argument "like:" isn't numeric in bhc-cpuint-00001.pl
 - Fixed Use of uninitialized value in pattern match in fsaio-00002.pl
 - Fixed Argument "" isn't numeric in fsaio-00001.pl
 - Fixed bhc-kerneltaint-00001.pl to check for invalid taint
