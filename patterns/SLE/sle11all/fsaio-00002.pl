@@ -135,6 +135,9 @@ sub oracleRunning {
 	my $LINE = 0;
 
 	if ( SDP::Core::getSection($FILE_OPEN, $SECTION, \@CONTENT) ) {
+		if ( scalar(@CONTENT) < 3 ) {
+			SDP::Core::updateStatus(STATUS_ERROR, "ERROR: Invalid ps output");
+		}
 		foreach $_ (@CONTENT) {
 			$LINE++;
 			next if ( /^\s*$/ ); # Skip blank lines
