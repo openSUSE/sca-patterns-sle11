@@ -2,10 +2,10 @@
 
 # Title:       Applicaitons Display Incorrectly with 8bit Color Depth
 # Description: When GUI is set to 8bit color depth some applications display incorrect colors and patterns making the text unreadable.
-# Modified:    2013 Jun 27
+# Modified:    2014 Apr 23
 
 ##############################################################################
-#  Copyright (C) 2013,2012 SUSE LLC
+#  Copyright (C) 2014 SUSE LLC
 ##############################################################################
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -70,7 +70,11 @@ sub checkColorDepth {
 				s/^\s*//g; # remove leading white space
 				SDP::Core::printDebug("PROCESSING", $_);
 				@LINE_CONTENT = split(/\s+/, $_);
-				$RCODE = $LINE_CONTENT[1];
+				if ( $LINE_CONTENT[1] =~ m/\D/ ) {
+					SDP::Core::updateStatus(STATUS_ERROR, "Error: Non digit color depth value: $LINE_CONTENT[1]");
+				} else {
+					$RCODE = $LINE_CONTENT[1];
+				}
 				last;
 			}
 		}
@@ -78,7 +82,7 @@ sub checkColorDepth {
 		SDP::Core::updateStatus(STATUS_ERROR, "ERROR: checkColorDepth(): Cannot find \"$SECTION\" section in $FILE_OPEN");
 	}
 	if ( $RCODE > MIN_COLOR_DEPTH ) {
-		SDP::Core::updateStatus(STATUS_ERROR, "Graphical Color Depth Detected: $RCODE");
+		SDP::Core::updateStatus(STATUS_IGNORE, "Graphical Color Depth Detected: $RCODE");
 	} elsif ( $RCODE == 0 ) {
 		SDP::Core::updateStatus(STATUS_RECOMMEND, "Cannot Determine Color Depth, Make Sure it's Set to More Than " . MIN_COLOR_DEPTH);
 	} else {
