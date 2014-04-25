@@ -63,8 +63,11 @@ def checkSomething():
 ##############################################################################
 # Main Program Execution
 ##############################################################################
-
-print "versionList = " + str(Core.normalizeVersionString("0001.0.2-3pjl3_400"))
+ver = '3.0.101-0.7.17-default'
+vers = ['3.0.101-0.7.17-smp', '3.0.101-0.7.17', '3.0.102-0.7.17']
+for I in range(len(vers)):
+	comp = Core.compareLVersions(ver, vers[I])
+	print str(ver) + " " + str(comp) + " " + str(vers[I])
 Core.updateStatus(Core.IGNORE, "Ignore this pattern, not applicable")
 Core.printPatternResults()
 
