@@ -1,6 +1,7 @@
 -------------------------------------------------------------------
-Wed Apr 23 16:59:56 UTC 2014 - jrecord@suse.com
+Fri Apr 25 20:38:11 UTC 2014 - jrecord@suse.com
 
+- Fixed mntspace-00001.pl df error handling
 - Fixed x-00003.pl non numeric comparison error
 
 -------------------------------------------------------------------
