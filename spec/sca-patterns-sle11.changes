@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Apr 28 14:33:32 UTC 2014 - jrecord@suse.com
+
+- Removed obsolete pattern subscription-00002.pl (bnc#710068)
+- Removed obsolete pattern patches-00002.pl (bnc#710068)
+
+-------------------------------------------------------------------
 Fri Apr 25 20:38:11 UTC 2014 - jrecord@suse.com
 
 - Fixed mntspace-00001.pl df error handling

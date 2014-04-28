@@ -89,7 +89,7 @@ if( SUSE.compareKernel(SUSE.SLE11SP2) >= 0 and SUSE.compareKernel(LAST_VERSION) 
 		else:
 			Core.updateStatus(Core.WARN, "Susceptible to XFS filesystem xlog_space_left errors, update system for patched kernel")
 	else:
-		Core.updateStatus(Core.ERROR, "No xfs filesystems mounted, skipping xlog_space_left test")
+		Core.updateStatus(Core.IGNORE, "No xfs filesystems mounted, skipping xlog_space_left test")
 else:
 	Core.updateStatus(Core.ERROR, "Outside kernel scope, skipping xlog_space_left test")
 
