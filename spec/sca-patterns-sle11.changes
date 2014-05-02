@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Fri May  2 13:59:13 UTC 2014 - jrecord@suse.com
+
+- Removed debug pattern
+
+-------------------------------------------------------------------
 Mon Apr 28 14:33:32 UTC 2014 - jrecord@suse.com
 
 - Removed obsolete pattern subscription-00002.pl (bnc#710068)
