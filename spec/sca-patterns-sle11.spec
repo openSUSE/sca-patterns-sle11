@@ -5,7 +5,9 @@
 # This file and all modifications and additions to the pristine
 # package are under the same license as the package itself.
 #
-
+# Source developed at:
+#  https://github.com/g23guy/sca-patterns-sle11
+#
 # norootforbuild
 # neededforbuild
 
@@ -19,12 +21,12 @@
 
 Name:         sca-patterns-sle11
 Summary:      Supportconfig Analysis Patterns for SLE11
-URL:          https://bitbucket.org/g23guy/sca-patterns-sle11
+URL:          https://github.com/g23guy/sca-patterns-sle11
 Group:        System/Monitoring
 License:      GPL-2.0
 Autoreqprov:  on
 Version:      1.3
-Release:      21
+Release:      21.1
 Source:       %{name}-%{version}.tar.gz
 BuildRoot:    %{_tmppath}/%{name}-%{version}
 Buildarch:    noarch
