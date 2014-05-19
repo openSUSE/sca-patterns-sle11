@@ -1,8 +1,10 @@
 -------------------------------------------------------------------
-Mon May 19 20:56:25 UTC 2014 - jrecord@suse.com
+Mon May 19 21:13:16 UTC 2014 - jrecord@suse.com
 
 - New patterns
   sle11all/sandy-7014951.py
+  sle11sp1/acpi-7010449.py
+  sle11sp2/acpi-7010449.py
 
 -------------------------------------------------------------------
 Fri May  2 13:59:13 UTC 2014 - jrecord@suse.com
