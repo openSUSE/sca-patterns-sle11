@@ -1,7 +1,13 @@
 -------------------------------------------------------------------
+Tue May 20 22:24:34 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp2/kernel-SUSE-SU-2014_0229-1.pl
+
+-------------------------------------------------------------------
 Mon May 19 21:13:16 UTC 2014 - jrecord@suse.com
 
-- New patterns
+- New Patterns
   sle11all/sandy-7014951.py
   sle11sp1/acpi-7010449.py
   sle11sp2/acpi-7010449.py
