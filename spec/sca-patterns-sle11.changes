@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed May 21 20:04:37 UTC 2014 - jrecord@suse.com
+Wed May 21 20:09:44 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp3/nagios-SUSE-SU-2014_0682-1.pl
   sle11sp3/flash-SUSE-SU-2014_0671-1.pl
   sle11sp3/javaopen-SUSE-SU-2014_0639-1.pl
   sle11sp1/firefox-SUSE-SU-2014_0665-1.pl
