@@ -59,7 +59,7 @@ SDP::Core::processOptions();
 my $NAME = 'Kernel';
 my $MAIN_PACKAGE = '';
 my $SEVERITY = 'Important';
-my $TAG = 'SUSE-SU-2014:0531-1';
+my $TAG = 'SUSE-SU-2014:0667-1';
 my %PACKAGES = ();
 if ( SDP::SUSE::compareKernel(SLE11SP3) >= 0 && SDP::SUSE::compareKernel(SLE11SP4) < 0 ) {
 	%PACKAGES = (
