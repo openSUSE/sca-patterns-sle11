@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed May 21 21:57:10 UTC 2014 - jrecord@suse.com
+Wed May 21 23:09:25 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp2/swapon-7010766.py
   sle11all/vfx_inode_table_7015089.py
 
 -------------------------------------------------------------------
