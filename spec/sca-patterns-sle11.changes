@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed May 21 00:28:05 UTC 2014 - jrecord@suse.com
+Wed May 21 00:40:23 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp3/lighttpd-SUSE-SU-2014_0474-1.pl
   sle11sp3/mutt-SUSE-SU-2014_0471-1.pl
   sle11sp3/kernel-SUSE-SU-2014_0459-1.pl
   sle11sp2/kernel-SUSE-SU-2014_0229-1.pl
