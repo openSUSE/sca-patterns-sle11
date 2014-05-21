@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed May 21 01:11:48 UTC 2014 - jrecord@suse.com
+Wed May 21 01:27:56 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp3/kernel-SUSE-SU-2014_0531-1.pl
   sle11sp2/puppet-SUSE-SU-2014_0510-1.pl
   sle11sp3/puppet-SUSE-SU-2014_0510-1.pl
   sle11sp3/samba-SUSE-SU-2014_0497-1.pl
