@@ -1,5 +1,11 @@
 -------------------------------------------------------------------
-Wed May 21 01:40:47 UTC 2014 - jrecord@suse.com
+Wed May 21 14:19:43 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11all/strongswan-SUSE-SU-2014_0529-1.pl
+
+-------------------------------------------------------------------
+Wed May 20 11:40:47 UTC 2014 - jrecord@suse.com
 
 - New Patterns
   sle11sp3/jakarta-SUSE-SU-2014_0548-1.pl
