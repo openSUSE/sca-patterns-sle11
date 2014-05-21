@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed May 21 18:56:51 UTC 2014 - jrecord@suse.com
+Wed May 21 19:25:45 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp3/firefox-SUSE-SU-2014_0638-1.pl
   sle11sp3/kvm-SUSE-SU-2014_0623-1.pl
   sle11sp3/flash-SUSE-SU-2014_0605-1.pl
   sle11sp3/kernel-SUSE-SU-2014_0667-1.pl
