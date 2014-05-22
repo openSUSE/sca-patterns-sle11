@@ -1,7 +1,9 @@
 -------------------------------------------------------------------
-Thu May 22 21:42:18 UTC 2014 - jrecord@suse.com
+Thu May 22 23:55:07 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp2/nfs-7014392.py
+  sle11sp3/nfs-7014392.py
   sle11sp2/audit-7014614.py
   sle11sp3/audit-7014614.py
   sle11sp3/hotmem-7015086.py
