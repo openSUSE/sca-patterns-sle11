@@ -1,6 +1,7 @@
 -------------------------------------------------------------------
-Thu May 29 17:21:32 UTC 2014 - jrecord@suse.com
+Mon Jun  2 19:09:15 UTC 2014 - jrecord@suse.com
 
+- Fixed calculation errors in sle11all/parted-00001.pl
 - New Patterns
   sle11sp2/kernel-SUSE-SU-2014_0696-1.pl
 
