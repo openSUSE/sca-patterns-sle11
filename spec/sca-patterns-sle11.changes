@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon Jun  2 18:25:41 UTC 2014 - jrecord@suse.com
+
+- Fixed calculation errors in sle11all/parted-00001.pl
+
+-------------------------------------------------------------------
 Thu May 22 23:55:07 UTC 2014 - jrecord@suse.com
 
 - New Patterns
