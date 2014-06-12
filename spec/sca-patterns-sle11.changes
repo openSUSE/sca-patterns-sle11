@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Thu Jun 12 18:45:55 UTC 2014 - jrecord@suse.com
+
+- Fixed invalid NTP fields in sle11all/ntp-00002.pl
+
+-------------------------------------------------------------------
 Mon Jun  2 19:09:15 UTC 2014 - jrecord@suse.com
 
 - Fixed calculation errors in sle11all/parted-00001.pl
