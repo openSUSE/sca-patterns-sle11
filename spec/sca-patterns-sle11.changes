@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jun 24 17:00:24 UTC 2014 - jrecord@suse.com
+
+- New patterns
+  sle11sp2/hyperv_kdump-7014585.py
+  sle11sp3/hyperv_kdump-7014585.py
+
+-------------------------------------------------------------------
 Thu Jun 12 18:45:55 UTC 2014 - jrecord@suse.com
 
 - Fixed invalid NTP fields in sle11all/ntp-00002.pl
