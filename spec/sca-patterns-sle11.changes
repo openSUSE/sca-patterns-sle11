@@ -1,10 +1,11 @@
 -------------------------------------------------------------------
-Tue Jun 24 20:19:11 UTC 2014 - jrecord@suse.com
+Tue Jun 24 21:06:47 UTC 2014 - jrecord@suse.com
 
 - New patterns
   sle11sp3/hyperv_kdump-7014585.py
   sle11sp2/hyperv_kdump-7014585.py
   sle11sp2/javaibm-SUSE-SU-2014_0733-1.pl
+  sle11sp2/javaibm-SUSE-SU-2014_0728-2.pl
 
 -------------------------------------------------------------------
 Thu Jun 12 18:45:55 UTC 2014 - jrecord@suse.com
