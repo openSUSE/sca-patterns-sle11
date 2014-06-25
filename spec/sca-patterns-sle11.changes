@@ -1,7 +1,9 @@
 -------------------------------------------------------------------
-Wed Jun 25 19:02:10 UTC 2014 - jrecord@suse.com
+Wed Jun 25 19:07:13 UTC 2014 - jrecord@suse.com
 
 - New patterns
+  sle11sp1/openssl-SUSE-SU-2014_0761-1.pl
+  sle11sp2/openssl-SUSE-SU-2014_0761-1.pl
   sle11sp3/openssl-SUSE-SU-2014_0759-1.pl
   sle11sp3/gnutls-SUSE-SU-2014_0758-1.pl
   sle11sp3/javaibm-SUSE-SU-2014_0728-3.pl
