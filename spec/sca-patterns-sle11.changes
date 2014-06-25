@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed Jun 25 19:16:00 UTC 2014 - jrecord@suse.com
+Wed Jun 25 19:29:21 UTC 2014 - jrecord@suse.com
 
 - New patterns
+  sle11sp3/mysql-SUSE-SU-2014_0769-1.pl
   sle11sp3/openssl_sm-SUSE-SU-2014_0762-1.pl
   sle11sp1/openssl-SUSE-SU-2014_0761-1.pl
   sle11sp2/openssl-SUSE-SU-2014_0761-1.pl
