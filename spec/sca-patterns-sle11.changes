@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Wed Jun 25 19:59:33 UTC 2014 - jrecord@suse.com
+Wed Jun 25 20:26:59 UTC 2014 - jrecord@suse.com
 
 - New patterns
+  sle11sp1/kernel-SUSE-SU-2014_0807-1.pl
   sle11sp1/gnutls-SUSE-SU-2014_0788-1.pl
   sle11sp2/gnutls-SUSE-SU-2014_0788-1.pl
   sle11sp2/kernel-SUSE-SU-2014_0837-1.pl
