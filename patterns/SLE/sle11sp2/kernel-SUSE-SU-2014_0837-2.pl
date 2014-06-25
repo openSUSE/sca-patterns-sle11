@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-# Title:       Kernel SA Important SUSE-SU-2014:0807-1
-# Description: solves 17 vulnerabilities and has 9 fixes
+# Title:       Kernel SA Important SUSE-SU-2014:0837-2
+# Description: fixes one vulnerability
 # Modified:    2014 Jun 25
 #
 ##############################################################################
@@ -45,7 +45,7 @@ use SDP::SUSE;
 "PRIMARY_LINK=META_LINK_Security",
 "OVERALL=$GSTATUS",
 "OVERALL_INFO=NOT SET",
-"META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2014-06/msg00022.html",
+"META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2014-06/msg00028.html",
 );
 
 ##############################################################################
@@ -56,41 +56,31 @@ SDP::Core::processOptions();
 my $NAME = 'LTSS Kernel';
 my $MAIN_PACKAGE = '';
 my $SEVERITY = 'Important';
-my $TAG = 'SUSE-SU-2014:0807-1';
+my $TAG = 'SUSE-SU-2014:0837-2';
 my %PACKAGES = ();
-if ( SDP::SUSE::compareKernel(SLE11SP1) >= 0 && SDP::SUSE::compareKernel(SLE11SP2) < 0 ) {
+if ( SDP::SUSE::compareKernel(SLE11SP2) >= 0 && SDP::SUSE::compareKernel(SLE11SP3) < 0 ) {
 	%PACKAGES = (
-		'btrfs-kmp-default-0_2.6.32.59_0.13' => '0.3.163',
-		'btrfs-kmp-pae-0_2.6.32.59_0.13' => '0.3.163',
-		'btrfs-kmp-xen-0_2.6.32.59_0.13' => '0.3.163',
-		'ext4dev-kmp-default-0_2.6.32.59_0.13' => '7.9.130',
-		'ext4dev-kmp-pae-0_2.6.32.59_0.13' => '7.9.130',
-		'ext4dev-kmp-trace-0_2.6.32.59_0.13' => '7.9.130',
-		'ext4dev-kmp-xen-0_2.6.32.59_0.13' => '7.9.130',
-		'hyper-v-kmp-default-0_2.6.32.59_0.13' => '0.18.39',
-		'hyper-v-kmp-pae-0_2.6.32.59_0.13' => '0.18.39',
-		'hyper-v-kmp-trace-0_2.6.32.59_0.13' => '0.18.39',
-		'kernel-default' => '2.6.32.59-0.13.1',
-		'kernel-default-base' => '2.6.32.59-0.13.1',
-		'kernel-default-devel' => '2.6.32.59-0.13.1',
-		'kernel-default-extra' => '2.6.32.59-0.13.1',
-		'kernel-default-man' => '2.6.32.59-0.13.1',
-		'kernel-ec2' => '2.6.32.59-0.13.1',
-		'kernel-ec2-base' => '2.6.32.59-0.13.1',
-		'kernel-ec2-devel' => '2.6.32.59-0.13.1',
-		'kernel-pae' => '2.6.32.59-0.13.1',
-		'kernel-pae-base' => '2.6.32.59-0.13.1',
-		'kernel-pae-devel' => '2.6.32.59-0.13.1',
-		'kernel-pae-extra' => '2.6.32.59-0.13.1',
-		'kernel-source' => '2.6.32.59-0.13.1',
-		'kernel-syms' => '2.6.32.59-0.13.1',
-		'kernel-trace' => '2.6.32.59-0.13.1',
-		'kernel-trace-base' => '2.6.32.59-0.13.1',
-		'kernel-trace-devel' => '2.6.32.59-0.13.1',
-		'kernel-xen' => '2.6.32.59-0.13.1',
-		'kernel-xen-base' => '2.6.32.59-0.13.1',
-		'kernel-xen-devel' => '2.6.32.59-0.13.1',
-		'kernel-xen-extra' => '2.6.32.59-0.13.1',
+		'kernel-default' => '3.0.101-0.7.21.1',
+		'kernel-default-base' => '3.0.101-0.7.21.1',
+		'kernel-default-devel' => '3.0.101-0.7.21.1',
+		'kernel-default-man' => '3.0.101-0.7.21.1',
+		'kernel-ec2' => '3.0.101-0.7.21.1',
+		'kernel-ec2-base' => '3.0.101-0.7.21.1',
+		'kernel-ec2-devel' => '3.0.101-0.7.21.1',
+		'kernel-pae' => '3.0.101-0.7.21.1',
+		'kernel-pae-base' => '3.0.101-0.7.21.1',
+		'kernel-pae-devel' => '3.0.101-0.7.21.1',
+		'kernel-source' => '3.0.101-0.7.21.1',
+		'kernel-syms' => '3.0.101-0.7.21.1',
+		'kernel-trace' => '3.0.101-0.7.21.1',
+		'kernel-trace-base' => '3.0.101-0.7.21.1',
+		'kernel-trace-devel' => '3.0.101-0.7.21.1',
+		'kernel-xen' => '3.0.101-0.7.21.1',
+		'kernel-xen-base' => '3.0.101-0.7.21.1',
+		'kernel-xen-devel' => '3.0.101-0.7.21.1',
+		'xen-kmp-default' => '4.1.6_06_3.0.101_0.7.21-0.5.16',
+		'xen-kmp-pae' => '4.1.6_06_3.0.101_0.7.21-0.5.16',
+		'xen-kmp-trace' => '4.1.6_06_3.0.101_0.7.21-0.5.16',
 	);
 	SDP::SUSE::securityAnnouncementPackageCheck($NAME, $MAIN_PACKAGE, $SEVERITY, $TAG, \%PACKAGES);
 } else {
