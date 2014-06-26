@@ -1,7 +1,8 @@
 -------------------------------------------------------------------
-Thu Jun 26 14:12:19 UTC 2014 - jrecord@suse.com
+Thu Jun 26 16:46:14 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp3/novellui-SUSE-SU-2014_0847-1.pl
   sle11sp1/firefox-SUSE-SU-2014_0824-2.pl
   sle11sp2/firefox-SUSE-SU-2014_0824-3.pl
   sle11sp3/firefox-SUSE-SU-2014_0824-1.pl
