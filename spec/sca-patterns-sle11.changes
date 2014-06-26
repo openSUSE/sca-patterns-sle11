@@ -1,7 +1,13 @@
 -------------------------------------------------------------------
+Thu Jun 26 13:44:06 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp3/firefox-SUSE-SU-2014_0824-1.pl
+
+-------------------------------------------------------------------
 Wed Jun 25 20:38:42 UTC 2014 - jrecord@suse.com
 
-- New patterns
+- New Patterns
   sle11sp3/rxvt-SUSE-SU-2014_0838-1.pl
   sle11sp3/flash-SUSE-SU-2014_0806-1.pl
   sle11sp2/kernel-SUSE-SU-2014_0837-2.pl
