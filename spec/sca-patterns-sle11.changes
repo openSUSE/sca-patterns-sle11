@@ -1,5 +1,5 @@
 -------------------------------------------------------------------
-Thu Jul 17 20:33:37 UTC 2014 - jrecord@suse.com
+Thu Jul 17 22:01:06 UTC 2014 - jrecord@suse.com
 
 - New Patterns
   sle11sp3/xalan-SUSE-SU-2014_0870-1.py
@@ -7,6 +7,7 @@ Thu Jul 17 20:33:37 UTC 2014 - jrecord@suse.com
   sle11sp3/php53-SUSE-SU-2014_0869-1.py
   sle11sp2/php5-SUSE-SU-2014_0868-1.py
   sle11sp2/php53-SUSE-SU-2014_0869-1.py
+  sle11sp1/php5-SUSE-SU-2014_0873-2.py
 
 -------------------------------------------------------------------
 Mon Jul  7 16:14:57 UTC 2014 - jrecord@suse.com

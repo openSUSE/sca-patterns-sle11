@@ -5,7 +5,7 @@
 # Modified:    2014 Jul 17
 #
 ##############################################################################
-# Copyright (C) 2014
+# Copyright (C) 2014 SUSE LLC
 ##############################################################################
 #
 # This program is free software; you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 #
 #  Authors/Contributors:
-#   Jason Record
+#   Jason Record (jrecord@suse.com)
 #
 ##############################################################################
 

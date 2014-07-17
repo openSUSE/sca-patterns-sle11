@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-# Title:       Xalan SA Important SUSE-SU-2014:0870-1
-# Description: fixes one vulnerability
+# Title:       PHP5 SA Important SUSE-SU-2014:0873-2
+# Description: fixes four vulnerabilities
 # Modified:    2014 Jul 17
 #
 ##############################################################################
@@ -39,12 +39,12 @@ import SUSE
 
 META_CLASS = "Security"
 META_CATEGORY = "SLE"
-META_COMPONENT = "Xalan"
+META_COMPONENT = "PHP"
 PATTERN_ID = os.path.basename(__file__)
 PRIMARY_LINK = "META_LINK_Security"
 OVERALL = Core.TEMP
 OVERALL_INFO = "NOT SET"
-OTHER_LINKS = "META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2014-07/msg00003.html"
+OTHER_LINKS = "META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2014-07/msg00005.html"
 
 Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, OVERALL, OVERALL_INFO, OTHER_LINKS)
 
@@ -52,20 +52,61 @@ Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, O
 # Main Program Execution
 ##############################################################################
 
-LTSS = False
-NAME = 'Xalan'
-MAIN = 'xalan-j2'
+LTSS = True
+NAME = 'PHP5'
+MAIN = 'php5'
 SEVERITY = 'Important'
-TAG = 'SUSE-SU-2014:0870-1'
+TAG = 'SUSE-SU-2014:0873-2'
 PACKAGES = {}
 SERVER = SUSE.getHostInfo()
 
-if ( SERVER['DistroVersion'] == 11 and SERVER['DistroPatchLevel'] == 3 ):
+if ( SERVER['DistroVersion'] == 11 and SERVER['DistroPatchLevel'] == 1 ):
 	PACKAGES = {
-		'xalan-j2': '2.7.0-217.26.1',
-		'xalan-j2-demo': '2.7.0-217.26.1',
-		'xalan-j2-javadoc': '2.7.0-217.26.1',
-		'xalan-j2-manual': '2.7.0-217.26.1',
+		'apache2-mod_php5': '5.2.14-0.7.30.54.1',
+		'php5': '5.2.14-0.7.30.54.1',
+		'php5-bcmath': '5.2.14-0.7.30.54.1',
+		'php5-bz2': '5.2.14-0.7.30.54.1',
+		'php5-calendar': '5.2.14-0.7.30.54.1',
+		'php5-ctype': '5.2.14-0.7.30.54.1',
+		'php5-curl': '5.2.14-0.7.30.54.1',
+		'php5-dba': '5.2.14-0.7.30.54.1',
+		'php5-dbase': '5.2.14-0.7.30.54.1',
+		'php5-dom': '5.2.14-0.7.30.54.1',
+		'php5-exif': '5.2.14-0.7.30.54.1',
+		'php5-fastcgi': '5.2.14-0.7.30.54.1',
+		'php5-ftp': '5.2.14-0.7.30.54.1',
+		'php5-gd': '5.2.14-0.7.30.54.1',
+		'php5-gettext': '5.2.14-0.7.30.54.1',
+		'php5-gmp': '5.2.14-0.7.30.54.1',
+		'php5-hash': '5.2.14-0.7.30.54.1',
+		'php5-iconv': '5.2.14-0.7.30.54.1',
+		'php5-json': '5.2.14-0.7.30.54.1',
+		'php5-ldap': '5.2.14-0.7.30.54.1',
+		'php5-mbstring': '5.2.14-0.7.30.54.1',
+		'php5-mcrypt': '5.2.14-0.7.30.54.1',
+		'php5-mysql': '5.2.14-0.7.30.54.1',
+		'php5-odbc': '5.2.14-0.7.30.54.1',
+		'php5-openssl': '5.2.14-0.7.30.54.1',
+		'php5-pcntl': '5.2.14-0.7.30.54.1',
+		'php5-pdo': '5.2.14-0.7.30.54.1',
+		'php5-pear': '5.2.14-0.7.30.54.1',
+		'php5-pgsql': '5.2.14-0.7.30.54.1',
+		'php5-pspell': '5.2.14-0.7.30.54.1',
+		'php5-shmop': '5.2.14-0.7.30.54.1',
+		'php5-snmp': '5.2.14-0.7.30.54.1',
+		'php5-soap': '5.2.14-0.7.30.54.1',
+		'php5-suhosin': '5.2.14-0.7.30.54.1',
+		'php5-sysvmsg': '5.2.14-0.7.30.54.1',
+		'php5-sysvsem': '5.2.14-0.7.30.54.1',
+		'php5-sysvshm': '5.2.14-0.7.30.54.1',
+		'php5-tokenizer': '5.2.14-0.7.30.54.1',
+		'php5-wddx': '5.2.14-0.7.30.54.1',
+		'php5-xmlreader': '5.2.14-0.7.30.54.1',
+		'php5-xmlrpc': '5.2.14-0.7.30.54.1',
+		'php5-xmlwriter': '5.2.14-0.7.30.54.1',
+		'php5-xsl': '5.2.14-0.7.30.54.1',
+		'php5-zip': '5.2.14-0.7.30.54.1',
+		'php5-zlib': '5.2.14-0.7.30.54.1',
 	}
 	SUSE.securityAnnouncementPackageCheck(NAME, MAIN, LTSS, SEVERITY, TAG, PACKAGES)
 else:
