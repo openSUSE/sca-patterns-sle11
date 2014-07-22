@@ -1,8 +1,10 @@
 -------------------------------------------------------------------
-Tue Jul 22 17:24:53 UTC 2014 - jrecord@suse.com
+Tue Jul 22 19:31:54 UTC 2014 - jrecord@suse.com
 
 - New Patterns
+  sle11sp3/chipset-7014344.py
   sle11sp3/gui-7015167.py
+  sle11sp2/chipset-7014344.py
 
 -------------------------------------------------------------------
 Thu Jul 17 22:22:46 UTC 2014 - jrecord@suse.com
