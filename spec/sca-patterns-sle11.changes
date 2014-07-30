@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Jul 30 21:20:31 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp3/libtasn1_SUSE-SU-2014_0931-1_11.3.py
+  sle11sp3/ppc64-diag_SUSE-SU-2014_0928-1_11.3.py
+
+-------------------------------------------------------------------
 Tue Jul 22 21:48:08 UTC 2014 - jrecord@suse.com
 
 - New Patterns
