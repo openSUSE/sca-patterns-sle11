@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Sep  9 23:07:08 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp1/NFS_Error88-7010007.py
+  sle11sp3/MySQL_SUSE-SU-2014_1072-1_11.3.py
+
+-------------------------------------------------------------------
 Tue Aug 19 19:37:48 UTC 2014 - jrecord@suse.com
 
 - New Patterns
