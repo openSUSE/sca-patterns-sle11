@@ -1,4 +1,24 @@
 -------------------------------------------------------------------
+Tue Sep 23 22:33:22 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11all/obsrepo-015683.py
+  sle11sp1/Kernel_SUSE-SU-2014_1138-1_11.1.py
+  sle11sp1/MozillaFirefox_SUSE-SU-2014_1112-2_11.1.py
+  sle11sp1/apache2_SUSE-SU-2014_1081-1_11.1.py
+  sle11sp1/glibc_SUSE-SU-2014_1122-1_11.1.py
+  sle11sp2/MozillaFirefox_SUSE-SU-2014_1112-1_11.2.py
+  sle11sp2/apache2_SUSE-SU-2014_1080-1_11.2.py
+  sle11sp2/glibc_SUSE-SU-2014_1129-1_11.2.py
+  sle11sp3/LibreOffice_SUSE-SU-2014_1116-1_11.3.py
+  sle11sp3/MozillaFirefox_SUSE-SU-2014_1107-1_11.3.py
+  sle11sp3/dbus-1_SUSE-SU-2014_1146-1_11.3.py
+  sle11sp3/flash-playe_SUSE-SU-2014_1124-1_11.3.py
+  sle11sp3/glibc_SUSE-SU-2014_1125-1_11.3.py
+  sle11sp3/procmail_SUSE-SU-2014_1137-1_11.3.py
+  sle11sp3/squid3_SUSE-SU-2014_1140-1_11.3.py
+
+-------------------------------------------------------------------
 Tue Sep  9 23:07:08 UTC 2014 - jrecord@suse.com
 
 - New Patterns
