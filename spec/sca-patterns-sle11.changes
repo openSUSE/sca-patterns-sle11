@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Mon Sep 29 14:29:55 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp1/bash_SUSE-SU-2014_1247-1_11.1.py
+  sle11sp2/bash_SUSE-SU-2014_1247-1_11.2.py
+  sle11sp3/bash_SUSE-SU-2014_1247-1_11.3.py
+  sle11sp3/mozilla-nss_SUSE-SU-2014_1220-1_11.3.py
+  sle11sp3/wireshark_SUSE-SU-2014_1221-1_11.3.py
+
+-------------------------------------------------------------------
 Fri Sep 26 18:53:32 UTC 2014 - jrecord@suse.com
 
 - Update bash security patterns with TID and BUG
