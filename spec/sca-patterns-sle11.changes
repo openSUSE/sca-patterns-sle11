@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Nov  6 15:38:48 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp3/OpenSSL_SUSE-SU-2014_1361-1_11.3.py
+  sle11sp3/flash-player_SUSE-SU-2014_1360-1_11.3.py
+  sle11sp3/wget_SUSE-SU-2014_1366-1_11.3.py
+
+-------------------------------------------------------------------
 Wed Nov  5 00:13:27 UTC 2014 - jrecord@suse.com
 
 - New Pattern
