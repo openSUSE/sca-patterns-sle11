@@ -2,7 +2,7 @@
 
 # Title:       Oracle and Asynchronous I/O Threads
 # Description: A server with Oracle and insufficient Asynchronous I/O threads can cause swapping and poor server performance.
-# Modified:    2014 Apr 22
+# Modified:    2014 Nov 18
 
 ##############################################################################
 #  Copyright (C) 2014 SUSE LLC
@@ -143,7 +143,7 @@ sub oracleRunning {
 			next if ( /^\s*$/ ); # Skip blank lines
 			@LINE_CONTENT = split(/\s+/, $_);
 			foreach $i (@ORACLE_PROCS) {
-				if ( $LINE_CONTENT[9] =~ /$i/ ) {
+				if ( $LINE_CONTENT[9] && $LINE_CONTENT[9] =~ /$i/ ) {
 					SDP::Core::printDebug("ORACLE $LINE", $_);
 					$RCODE++;
 					last;

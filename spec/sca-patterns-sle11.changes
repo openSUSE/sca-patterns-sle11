@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Tue Nov 18 17:14:05 UTC 2014 - jrecord@suse.com
+
+- Fixed undefined variable use error in sle11all/fsaio-00002.pl
+- New Patterns
+  sle11sp1/OpenSSL_SUSE-SU-2014_1386-1_11.1.py
+  sle11sp1/wget_SUSE-SU-2014_1366-2_11.1.py
+  sle11sp2/OpenSSL_SUSE-SU-2014_1386-1_11.2.py
+  sle11sp2/wget_SUSE-SU-2014_1366-2_11.2.py
+  sle11sp3/pagecache-7015898.py
+
+-------------------------------------------------------------------
 Mon Nov 10 20:46:09 UTC 2014 - jrecord@suse.com
 
 - New Pattern
