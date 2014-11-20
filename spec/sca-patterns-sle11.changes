@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Nov 20 20:23:02 UTC 2014 - jrecord@suse.com
+
+- New Pattern
+  sle11sp3/flash-player_SUSE-SU-2014_1442-1_11.3.py
+
+-------------------------------------------------------------------
 Tue Nov 18 17:14:05 UTC 2014 - jrecord@suse.com
 
 - Fixed undefined variable use error in sle11all/fsaio-00002.pl
