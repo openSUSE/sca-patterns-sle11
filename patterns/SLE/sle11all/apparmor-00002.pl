@@ -2,10 +2,10 @@
 
 # Title:       AppArmor Rejects Can Cause Unexpected Application Behavior
 # Description: Make sure AppArmor is not rejecting application functionality
-# Modified:    2013 Jun 26
+# Modified:    2014 Nov 26
 
 ##############################################################################
-#  Copyright (C) 2013,2012 SUSE LLC
+#  Copyright (C) 2014 SUSE LLC
 ##############################################################################
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -47,7 +47,7 @@ use SDP::SUSE;
 	PROPERTY_NAME_OVERALL."=$GSTATUS",
 	PROPERTY_NAME_OVERALL_INFO."=None",
 	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=7006073",
-	"META_LINK_Doc=http://www.novell.com/documentation/sles11/book_sle_security/data/part_aaa.html"
+	"META_LINK_Doc=http://www.suse.com/documentation/sles11/book_security/data/part_aaa.html"
 );
 
 ##############################################################################
@@ -98,7 +98,7 @@ sub checkRejectMessages {
 				SDP::Core::printDebug("PROCESSING", "$1 in line => $_");
 				$REJECTS{$1} = 1;
 				$RCODE++;
-			} elsif ( /apparmor="DENIED".*comm="(.*)"/ ) {
+			} elsif ( /apparmor="DENIED".*profile=\"(.+)\" pid/ ) {
 				SDP::Core::printDebug("PROCESSING", "$1 in line => $_");
 				$REJECTS{$1} = 1;
 				$RCODE++;
@@ -109,7 +109,7 @@ sub checkRejectMessages {
 	}
 	if ( $RCODE ) {
 		my @PROCS = keys %REJECTS;
-		SDP::Core::updateStatus(STATUS_WARNING, "Observed $RCODE AppArmor reject messages for application(s): @PROCS");		
+		SDP::Core::updateStatus(STATUS_WARNING, "Observed $RCODE AppArmor reject messages");		
 	} else {
 		SDP::Core::updateStatus(STATUS_SUCCESS, "There are no AppArmor reject messages");		
 	}
