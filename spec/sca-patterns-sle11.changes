@@ -1,4 +1,17 @@
 -------------------------------------------------------------------
+Thu Dec  4 23:05:55 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp1/java_SUSE-SU-2013_0440-3_11.1.py
+  sle11sp1/java_SUSE-SU-2013_0456-3_11.1.py
+  sle11sp1/postgresql_SUSE-SU-2013_0633-2_11.1.py
+  sle11sp2/firefox_SUSE-SU-2013_0470-1_11.2.py
+  sle11sp2/gnutls_SUSE-SU-2013_1060-1_11.2.py
+  sle11sp2/java_SUSE-SU-2013_0871-1_11.2.py
+  sle11sp2/kernel_SUSE-SU-2013_0759-2_11.2.py
+  sle11sp2/kernel_SUSE-SU-2013_0786-1_11.2.py
+
+-------------------------------------------------------------------
 Wed Dec  3 22:01:28 UTC 2014 - jrecord@suse.com
 
 - New Pattern
