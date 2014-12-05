@@ -1,4 +1,52 @@
 -------------------------------------------------------------------
+Fri Dec  5 21:55:45 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp1/apache_SUSE-SU-2011_1000-1_11.1.py
+  sle11sp1/apache_SUSE-SU-2011_1215-1_11.1.py
+  sle11sp1/bind_SUSE-SU-2011_0759-1_11.1.py
+  sle11sp1/bind_SUSE-SU-2011_1268-1_11.1.py
+  sle11sp1/compat-openssl097g_SUSE-SU-2011_0847-1_11.1.py
+  sle11sp1/ecryptfs-utils_SUSE-SU-2011_0898-1_11.1.py
+  sle11sp1/firefox_SUSE-SU-2011_0727-1_11.1.py
+  sle11sp1/firefox_SUSE-SU-2011_0967-1_11.1.py
+  sle11sp1/firefox_SUSE-SU-2011_1096-1_11.1.py
+  sle11sp1/firefox_SUSE-SU-2011_1256-1_11.1.py
+  sle11sp1/flash-player_SUSE-SU-2011_0614-1_11.1.py
+  sle11sp1/flash-player_SUSE-SU-2011_0640-1_11.1.py
+  sle11sp1/flash-player_SUSE-SU-2011_0894-1_11.1.py
+  sle11sp1/flash-player_SUSE-SU-2011_1063-1_11.1.py
+  sle11sp1/flash-player_SUSE-SU-2011_1244-1_11.1.py
+  sle11sp1/framework_SUSE-SU-2011_1185-1_11.1.py
+  sle11sp1/freetype2_SUSE-SU-2011_0853-1_11.1.py
+  sle11sp1/freetype2_SUSE-SU-2011_1307-1_11.1.py
+  sle11sp1/jasper_SUSE-SU-2011_1317-1_11.1.py
+  sle11sp1/java_SUSE-SU-2011_0632-1_11.1.py
+  sle11sp1/java_SUSE-SU-2011_0807-1_11.1.py
+  sle11sp1/java_SUSE-SU-2011_0966-1_11.1.py
+  sle11sp1/kernel_SUSE-SU-2011_0832-1_11.1.py
+  sle11sp1/kernel_SUSE-SU-2011_0984-2_11.1.py
+  sle11sp1/kernel_SUSE-SU-2011_1100-1_11.1.py
+  sle11sp1/kernel_SUSE-SU-2011_1319-1_11.1.py
+  sle11sp1/kernel_SUSE-SU-2011_1319-2_11.1.py
+  sle11sp1/kvm_SUSE-SU-2011_0806-1_11.1.py
+  sle11sp1/libfreebl3_SUSE-SU-2011_1042-2_11.1.py
+  sle11sp1/libgssglue_SUSE-SU-2011_0696-1_11.1.py
+  sle11sp1/libwebkit_SUSE-SU-2011_0857-1_11.1.py
+  sle11sp1/openssl-certs_SUSE-SU-2011_0995-1_11.1.py
+  sle11sp1/pam_SUSE-SU-2011_1207-1_11.1.py
+  sle11sp1/popt_SUSE-SU-2011_1140-1_11.1.py
+  sle11sp1/pure-ftpd_SUSE-SU-2011_1029-1_11.1.py
+  sle11sp1/quagga_SUSE-SU-2011_1075-1_11.1.py
+  sle11sp1/reader_SUSE-SU-2011_1239-1_11.1.py
+  sle11sp1/squid3_SUSE-SU-2011_1019-1_11.1.py
+  sle11sp1/vpnc_SUSE-SU-2011_0979-1_11.1.py
+  sle11sp1/wireshark_SUSE-SU-2011_1262-1_11.1.py
+  sle11sp1/x11_SUSE-SU-2011_1035-1_11.1.py
+  sle11sp1/xen_SUSE-SU-2011_0942-1_11.1.py
+  sle11sp1/xorg-x11-server_SUSE-SU-2011_1292-1_11.1.py
+
+-------------------------------------------------------------------
 Fri Dec  5 20:15:32 UTC 2014 - jrecord@suse.com
 
 - New Patterns
