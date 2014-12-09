@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Dec  9 17:43:00 UTC 2014 - jrecord@suse.com
+
+- New Patterns
+  sle11sp3/openvpn_SUSE-SU-2014_1605-1_11.3.py
+  sle11sp3/smt-7015946.py
+
+-------------------------------------------------------------------
 Fri Dec  5 22:09:13 UTC 2014 - jrecord@suse.com
 
 - New Patterns
