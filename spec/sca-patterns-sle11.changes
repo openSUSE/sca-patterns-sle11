@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Jan  5 23:28:04 UTC 2015 - jrecord@suse.com
+
+- New Patterns
+  sle11sp3/bind_SUSE-SU-2015_0011-1_11.3.py
+  sle11sp3/suseregister_SUSE-SU-2015_0010-1_11.3.py
+
+-------------------------------------------------------------------
 Wed Dec 24 19:43:03 UTC 2014 - jrecord@suse.com
 
 - New Patterns
