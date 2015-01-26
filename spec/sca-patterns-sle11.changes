@@ -1,6 +1,9 @@
 -------------------------------------------------------------------
-Mon Jan 26 16:26:36 UTC 2015 - jrecord@suse.com
+Mon Jan 26 16:30:55 UTC 2015 - jrecord@suse.com
 
+- New Patterns
+  sle11sp3/flash-player_SUSE-SU-2015_0135-1_11.3.py
+  sle11sp3/vsftpd_SUSE-SU-2015_0136-1_11.3.py
 - Moved sle11sp3/hotmem-7015086.py to sle11all
 
 -------------------------------------------------------------------
