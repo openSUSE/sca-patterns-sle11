@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Mon Jan 26 16:26:36 UTC 2015 - jrecord@suse.com
+
+- Moved sle11sp3/hotmem-7015086.py to sle11all
+
+-------------------------------------------------------------------
 Fri Jan 23 17:29:27 UTC 2015 - jrecord@suse.com
 
 - Makefile includes obnew to commit changes to OBS
