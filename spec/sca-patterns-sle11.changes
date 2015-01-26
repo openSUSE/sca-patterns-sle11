@@ -1,4 +1,17 @@
 -------------------------------------------------------------------
+Mon Jan 26 23:13:08 UTC 2015 - jrecord@suse.com
+
+- New kernel patterns including real time kernels
+  sle11sp1/kernel_SUSE-SU-2012_0153-2_11.1.py
+  sle11sp3/kernel-rt_SUSE-SU-2013_1750-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2014_0537-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2014_0683-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2014_0796-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2014_0908-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2014_0909-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2014_1695-2_11.3.py
+
+-------------------------------------------------------------------
 Mon Jan 26 16:30:55 UTC 2015 - jrecord@suse.com
 
 - New Patterns
