@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Jan 29 22:05:14 UTC 2015 - jrecord@suse.com
+
+- New Patterns
+  sle11all/smtdup-7011387.py
+  sle11all/smtdup-7016109.py
+
+-------------------------------------------------------------------
 Thu Jan 29 17:54:47 UTC 2015 - jrecord@suse.com
 
 - Fixed glibc pattern links
