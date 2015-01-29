@@ -37,7 +37,7 @@ PATTERN_ID = os.path.basename(__file__)
 PRIMARY_LINK = "META_LINK_TID"
 OVERALL = Core.TEMP
 OVERALL_INFO = "NOT SET"
-OTHER_LINKS = "META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2015-01/msg00028.html|BUG=https://bugzilla.suse.com/show_bug.cgi?id=913646|TID=https://www.suse.com/support/kb/doc.php?id=7016113"
+OTHER_LINKS = "META_LINK_TID=https://www.suse.com/support/kb/doc.php?id=7016113|META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=913646|META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2015-01/msg00028.html"
 Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, OVERALL, OVERALL_INFO, OTHER_LINKS)
 
 LTSS = False
