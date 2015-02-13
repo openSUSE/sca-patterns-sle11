@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Fri Feb 13 21:21:41 UTC 2015 - jrecord@suse.com
+
+- New Patterns
+  sle11all/vncjava8-7016151.py
+  sle11sp1/leapsec-7016150.py
+  sle11sp2/leapsec-7016150.py
+  sle11sp2/ntp_SUSE-SU-2015_0259-2_11.2.py
+  sle11sp3/flash-player-gnome,_SUSE-SU-2015_0239-1_11.3.py
+  sle11sp3/krb5_SUSE-SU-2015_0257-1_11.3.py
+  sle11sp3/ntp_SUSE-SU-2015_0259-1_11.3.py
+
+-------------------------------------------------------------------
 Sat Jan 31 16:50:35 UTC 2015 - jrecord@suse.com
 
 - New Pattern
