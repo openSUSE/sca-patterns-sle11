@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Mar 25 17:45:16 UTC 2015 - jrecord@suse.com
+
+- New Patterns
+  sle11sp3/firefox_SUSE-SU-2015_0593-1_11.3.py
+  sle11sp3/kernel_SUSE-SU-2015_0581-1_11.3.py
+
+-------------------------------------------------------------------
 Mon Mar 23 22:21:39 UTC 2015 - jrecord@suse.com
 
 - New Patterns
