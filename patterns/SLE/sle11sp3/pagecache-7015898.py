@@ -2,10 +2,10 @@
 
 # Title:       Page cache limit check
 # Description: Memory corruption regression with kernel 3.0.101-0.35 and using pagecache limit
-# Modified:    2014 Nov 18
+# Modified:    2015 Mar 26
 #
 ##############################################################################
-# Copyright (C) 2014 SUSE LLC
+# Copyright (C) 2014,2015 SUSE LLC
 ##############################################################################
 #
 # This program is free software; you can redistribute it and/or modify
@@ -72,7 +72,7 @@ def pageCacheSet():
 SERVER = SUSE.getHostInfo()
 AFFECTED_VERSION = '3.0.101-0.35'
 if( SERVER['DistroVersion'] == 11 and SERVER['DistroPatchLevel'] == 3 ):
-	if( Core.compareVersions(SERVER['KernelVersion'], AFFECTED_VERSION) <= 0 ):
+	if( Core.compareVersions(SERVER['KernelVersion'], AFFECTED_VERSION) == 0 ):
 		if( pageCacheSet() ):
 			Core.updateStatus(Core.CRIT, "The vm.pagecache_limit_mb is non-zero and may cause memory corruption, update system to apply fixed kernel")
 		else:
