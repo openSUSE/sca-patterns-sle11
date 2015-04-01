@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Apr  1 16:33:51 UTC 2015 - jrecord@suse.com
+
+- Additional Patterns
+  sle11all/qla2xxx-7016375.py
+  sle11sp3/nfs4-bnc924282.py
+
+-------------------------------------------------------------------
 Wed Apr  1 13:03:17 UTC 2015 - jrecord@suse.com
 
 - New Patterns
