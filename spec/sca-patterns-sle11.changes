@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Apr 15 19:03:27 UTC 2015 - jrecord@suse.com
+
+- New Pattern
+  sle11sp3/xorg-x11-libs_SUSE-SU-2015_0674-1_11.3.py
+
+-------------------------------------------------------------------
 Thu Apr  2 16:19:24 UTC 2015 - jrecord@suse.com
 
 - Fixed vm.pagecache_limit in pagecache-7015898.py (bnc#925583)
