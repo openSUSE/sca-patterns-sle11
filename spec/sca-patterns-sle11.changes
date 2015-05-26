@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Tue May 26 14:58:26 UTC 2015 - jrecord@suse.com
+
+- New Patterns
+  sle11sp1/xen_SUSE-SU-2015_0940-1_11.1.py
+  sle11sp2/kvm_SUSE-SU-2015_0943-1_11.2.py
+  sle11sp2/xen_SUSE-SU-2015_0944-1_11.2.py
+  sle11sp3/mysql_SUSE-SU-2015_0946-1_11.3.py
+
+-------------------------------------------------------------------
 Fri May 22 18:07:23 UTC 2015 - jrecord@suse.com
 
 - New Patterns
