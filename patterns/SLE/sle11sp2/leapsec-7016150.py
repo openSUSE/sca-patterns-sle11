@@ -2,7 +2,7 @@
 
 # Title:       Leap second June 2015
 # Description: Minimum Kernel versions
-# Modified:    2015 Feb 13
+# Modified:    2015 Jun 03
 #
 ##############################################################################
 # Copyright (C) 2015 SUSE LLC
@@ -45,7 +45,7 @@ PATTERN_ID = os.path.basename(__file__)
 PRIMARY_LINK = "META_LINK_TID"
 OVERALL = Core.TEMP
 OVERALL_INFO = "NOT SET"
-OTHER_LINKS = "META_LINK_TID=https://www.suse.com/support/kb/doc.php?id=7016150|META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=912916|META_LINK_IERS=http://hpiers.obspm.fr/iers/bul/bulc/bulletinc.dat"
+OTHER_LINKS = "META_LINK_TID=https://www.suse.com/support/kb/doc.php?id=7016150|META_LINK_TID2=https://www.suse.com/support/kb/doc.php?id=7010351|META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=912916|META_LINK_IERS=http://hpiers.obspm.fr/iers/bul/bulc/bulletinc.dat"
 
 PRE_DEADLINE = -1
 POST_DEADLINE = 0

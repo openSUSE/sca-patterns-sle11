@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Jun  4 15:27:19 UTC 2015 - jrecord@suse.com
+
+- Added TID links
+  sle11sp1/leapsec-7016150.py
+  sle11sp2/leapsec-7016150.py
+
+-------------------------------------------------------------------
 Mon Jun  1 19:28:59 UTC 2015 - jrecord@suse.com
 
 - New Pattern
