@@ -53,16 +53,29 @@ Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, O
 # Local Function Definitions
 ##############################################################################
 
+def getXenPhysicalDeviceFrom():
+
+def getDiskFrom():
+
+def mpioManagedDevice():
+
 
 ##############################################################################
 # Main Program Execution
 ##############################################################################
 
-MpioDevices = SUSE.mpioGetManagedDevices()
-
 if( Xen.isDom0() ):
 	if( SUSE.mpioDevicesManaged() ):
 		XenConfigFiles = Xen.getConfigFiles()
+		MpioDevices = SUSE.mpioGetManagedDevices()
+		VM_CRIT_LIST = []
+		for XenConfig in XenConfigFiles:
+			if "phy:/dev/" in XenConfig['disk']:
+				DEVICE = getXenPhysicalDeviceFrom(XenConfig['disk'])
+				DISK = getDiskFrom(DEVICE)
+				if mpioManagedDevice(DISK):
+					VM_CRIT_LIST.append(XenConfig['name'])
+				print "\n", XenConfig
 	else:
 		Core.updateStatus(Core.ERROR, "ERROR: MPIO not active")
 else:
