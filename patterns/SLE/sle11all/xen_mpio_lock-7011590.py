@@ -29,6 +29,7 @@
 # Module Definition
 ##############################################################################
 
+import re
 import os
 import Core
 import SUSE
@@ -59,12 +60,26 @@ def getDiskID(DEVICE_PATH):
 	"""
 	ID = ''
 	DEV = DEVICE_PATH.split("/")[-1]
+	Digits = re.compile("\d+")
 	print "Evaluate", DEV
-	if DEV.startswith("sd"):
-		print " system"
+	if DEV.startswith("sd"): #check for system device name in the form sd? because they are easy to find
+		ID = re.sub(Digits, "", DEV)
+	else:
+		CONTENT = []
+		if Core.getRegExSection('mpio.txt', 'ls -lR.*/dev/disk/', CONTENT): #find out how the xen config device is symbolically linked
+			for LINE in CONTENT:
+				if DEV in LINE: #found the symlink for the xen device
+					print LINE
+					LINKED_DEV = LINE.split()[-1].split("/")[-1]
+					print " ", LINKED_DEV
+					if LINKED_DEV.startswith("sd"): #the symlink was linked to a system device
+						ID = re.sub(Digits, "", LINKED_DEV)
+					else:
+						print "DM"
+	print " ", ID
 	return ID
 
-def mpioManagedDevice(DISK_ID):
+def mpioManagedDevice(DISK_ID, MPIO_DEVS):
 	return True
 
 ##############################################################################
@@ -76,21 +91,21 @@ if( Xen.isDom0() ):
 		XenConfigFiles = Xen.getConfigFiles()
 		MpioDevices = SUSE.mpioGetManagedDevices()
 		VM_CRIT_LIST = []
-		for XenConfig in XenConfigFiles:
-			if "phy:/dev/" in XenConfig['disk']: #there are physical disks to process
-				DISK_LIST = Xen.getDiskValueList(XenConfig['disk'])
-				for DISK in DISK_LIST:
-					if( 'phy' in DISK['type'] ): #we only care about phy type disks
- 						if( not DISK['mode'].endswith('!') ): #process non disk locked devices only
+		for XenConfig in XenConfigFiles: 												#process each xen config file in the xen.txt file
+			if "phy:/dev/" in XenConfig['disk']: 									#if there are physical disks to process
+				DISK_LIST = Xen.getDiskValueList(XenConfig['disk'])	#a list of the xen config file disk values
+				for DISK in DISK_LIST: 															#process each disk from the disk= value in the xen config file
+					if( 'phy' in DISK['type'] ): 											#we only care about phy type disks
+ 						if( not DISK['mode'].endswith('!') ): 					#process non disk locked devices only
 							#print "Checking", DISK['device']
 							DISK_ID = getDiskID(DISK['device'])
 							if( DISK_ID ):
-								if( mpioManagedDevice(DISK_ID) ):
+								if( mpioManagedDevice(DISK_ID, MpioDevices) ):
 									VM_CRIT_LIST.append(XenConfig['name'])
 								else:
-									print " Not managed"
+									print " Not managed\n"
 							else:
-								print " Missing ID"
+								print " Missing ID\n"
 		if( len(VM_CRIT_LIST) > 0 ):
 			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partition, probable boot failure for VMs: " + ' '.join(VM_CRIT_LIST))
 		else:
