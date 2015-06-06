@@ -56,31 +56,66 @@ Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, O
 
 def getDiskID(DEVICE_PATH):
 	"""
-	Gets the system disk (sd?) or world wide name ID for use in MPIO managed disk lookup
+	Gets the system disk (sd?) or world wide name ID for use in MPIO managed disk lookup.
+	Returns and sd disk device without partition numbers or a wwid
 	"""
 	ID = ''
-	DEV = DEVICE_PATH.split("/")[-1]
+	DEV = DEVICE_PATH.split("/")[-1] + " "
 	Digits = re.compile("\d+")
-	print "Evaluate", DEV
+	#print "Evaluate", DEV
 	if DEV.startswith("sd"): #check for system device name in the form sd? because they are easy to find
 		ID = re.sub(Digits, "", DEV)
 	else:
 		CONTENT = []
+		UDEV_CONTENT = []
 		if Core.getRegExSection('mpio.txt', 'ls -lR.*/dev/disk/', CONTENT): #find out how the xen config device is symbolically linked
 			for LINE in CONTENT:
 				if DEV in LINE: #found the symlink for the xen device
-					print LINE
-					LINKED_DEV = LINE.split()[-1].split("/")[-1]
-					print " ", LINKED_DEV
+					#print " ", LINE
+					LINKED_DEV = LINE.split()[-1].split("/")[-1] #just get the last part of the linked path after the last /
+					#print " ", LINKED_DEV
 					if LINKED_DEV.startswith("sd"): #the symlink was linked to a system device
 						ID = re.sub(Digits, "", LINKED_DEV)
 					else:
-						print "DM"
-	print " ", ID
-	return ID
+						Core.getRegExSection('mpio.txt', '/udevadm info -e', UDEV_CONTENT)
+						BlockDev = re.compile('^P:\s+/devices/virtual/block/' + str(LINKED_DEV))
+						EndBlockDev = re.compile('^$')
+						IN_DEV = False
+						for UDEV_LINE in UDEV_CONTENT:
+							if( IN_DEV ):
+								if EndBlockDev.search(UDEV_LINE):
+									IN_DEV = False
+								elif "DM_NAME=" in UDEV_LINE:
+									ID = UDEV_LINE.split("=")[-1]
+									IN_DEV = False
+									break
+							elif BlockDev.search(UDEV_LINE):
+								IN_DEV = True
+	#print " ", ID, "\n"
+	return ID.strip()
 
-def mpioManagedDevice(DISK_ID, MPIO_DEVS):
-	return True
+def mpioPartitionManagedDevice(DISK_ID, MPIO_DEVS):
+	"""
+	Checks if the DISK_ID is present in the MPIO_DEVS or multipath devices that do not have a no_partitions feature.
+	Returns True if the DISK_ID is managed without no_partitions or False if it is not managed or if no_partitions is found on the wwid.
+	"""
+	#print "\nChecking '" + str(DISK_ID) + "' in:"
+	for MPIO in MPIO_DEVS:
+		#print MPIO['wwid'], "or", MPIO['device']
+		#print MPIO['features']
+		if "no_partitions" in MPIO['features']:
+			#print " IGNORED: no_partitions found"
+			continue
+		elif( DISK_ID == MPIO['wwid'] ):
+			#print " MATCH"
+			return True
+		else:
+			for LUN_PATH in MPIO['device']:
+				#print "LUN_PATH[1]", "'" + str(LUN_PATH[1]) + "'"
+				if DISK_ID in LUN_PATH[1]:
+					#print " MATCH"
+					return True
+	return False
 
 ##############################################################################
 # Main Program Execution
@@ -97,17 +132,16 @@ if( Xen.isDom0() ):
 				for DISK in DISK_LIST: 															#process each disk from the disk= value in the xen config file
 					if( 'phy' in DISK['type'] ): 											#we only care about phy type disks
  						if( not DISK['mode'].endswith('!') ): 					#process non disk locked devices only
-							#print "Checking", DISK['device']
-							DISK_ID = getDiskID(DISK['device'])
+							DISK_ID = getDiskID(DISK['device'])						#get the disk id for this device
 							if( DISK_ID ):
-								if( mpioManagedDevice(DISK_ID, MpioDevices) ):
-									VM_CRIT_LIST.append(XenConfig['name'])
-								else:
-									print " Not managed\n"
-							else:
-								print " Missing ID\n"
-		if( len(VM_CRIT_LIST) > 0 ):
-			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partition, probable boot failure for VMs: " + ' '.join(VM_CRIT_LIST))
+								if( mpioPartitionManagedDevice(DISK_ID, MpioDevices) ): #determine if the device is managed without no_partitions
+									VM_CRIT_LIST.append(XenConfig['name'])		#add the managed mpio disks without no_partitions that match the xen configuration
+									break
+		VM_CRIT_LIST_CNT = len(VM_CRIT_LIST)
+		if( VM_CRIT_LIST_CNT > 1 ):
+			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(len(VM_CRIT_LIST)) + " VMs: " + ' '.join(VM_CRIT_LIST))
+		if( VM_CRIT_LIST_CNT > 0 ):
+			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(len(VM_CRIT_LIST)) + " VM: " + ' '.join(VM_CRIT_LIST))
 		else:
 			Core.updateStatus(Core.IGNORE, "No VMs using MPIO devices")
 	else:
