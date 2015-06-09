@@ -110,7 +110,7 @@ def mpioPartitionManagedDevice(DISK_ID, MPIO_DEVS):
 			#print " MATCH"
 			return True
 		else:
-			for LUN_PATH in MPIO['device']:
+			for LUN_PATH in MPIO['devicepath']:
 				#print "LUN_PATH[1]", "'" + str(LUN_PATH[1]) + "'"
 				if DISK_ID in LUN_PATH[1]:
 					#print " MATCH"
@@ -139,13 +139,13 @@ if( Xen.isDom0() ):
 									break
 		VM_CRIT_LIST_CNT = len(VM_CRIT_LIST)
 		if( VM_CRIT_LIST_CNT > 1 ):
-			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(len(VM_CRIT_LIST)) + " VMs: " + ' '.join(VM_CRIT_LIST))
+			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(VM_CRIT_LIST_CNT) + " VMs: " + ' '.join(VM_CRIT_LIST))
 		if( VM_CRIT_LIST_CNT > 0 ):
-			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(len(VM_CRIT_LIST)) + " VM: " + ' '.join(VM_CRIT_LIST))
+			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(VM_CRIT_LIST_CNT) + " VM: " + ' '.join(VM_CRIT_LIST))
 		else:
 			Core.updateStatus(Core.IGNORE, "No VMs using MPIO devices")
 	else:
-		Core.updateStatus(Core.ERROR, "ERROR: MPIO not active")
+		Core.updateStatus(Core.ERROR, "ERROR: No MPIO managed devices found")
 else:
 	Core.updateStatus(Core.ERROR, "ERROR: Not a Xen Dom0")
 
