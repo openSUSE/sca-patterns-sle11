@@ -2,7 +2,7 @@
 
 # Title:       Xen DomU fails to boot
 # Description: Not able to load or install a DomU (Guest machine) using a disk from Multipath
-# Modified:    2015 Jun 02
+# Modified:    2015 Jun 11
 #
 ##############################################################################
 # Copyright (C) 2015 SUSE LLC
@@ -66,15 +66,15 @@ if( Xen.isDom0() ):
 				for DISK in DISK_LIST: 															#process each disk from the disk= value in the xen config file
 					if( 'phy' in DISK['type'] ): 											#we only care about phy type disks
  						if( not DISK['mode'].endswith('!') ): 					#process non disk locked devices only
-							DISK_ID = MPIO.getDiskID(DISK['device'])						#get the disk id for this device
-							if( DISK_ID ):
+							DISK_ID = MPIO.getDiskID(DISK['device'])			#get the disk id for this device
+							if( DISK_ID ):																#process if the DISK_ID is found
 								if( MPIO.partitionManagedDevice(DISK_ID, MpioDevices) ): #determine if the device is managed without no_partitions
 									VM_CRIT_LIST.append(XenConfig['name'])		#add the managed mpio disks without no_partitions that match the xen configuration
 									break
 		VM_CRIT_LIST_CNT = len(VM_CRIT_LIST)
-		if( VM_CRIT_LIST_CNT > 1 ):
+		if( VM_CRIT_LIST_CNT > 1 ): #print plural message
 			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(VM_CRIT_LIST_CNT) + " VMs: " + ' '.join(VM_CRIT_LIST))
-		if( VM_CRIT_LIST_CNT > 0 ):
+		if( VM_CRIT_LIST_CNT > 0 ): #print single message
 			Core.updateStatus(Core.CRIT, "Missing disk lock or no_partitions, probable boot failure for " + str(VM_CRIT_LIST_CNT) + " VM: " + ' '.join(VM_CRIT_LIST))
 		else:
 			Core.updateStatus(Core.IGNORE, "No VMs using MPIO devices")
