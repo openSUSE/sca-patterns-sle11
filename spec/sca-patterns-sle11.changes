@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Jun 24 18:20:19 UTC 2015 - jrecord@suse.com
+
+- New Pattern
+  sle11sp3/microcode-7016594.py
+
+-------------------------------------------------------------------
 Wed Jun 24 17:18:06 UTC 2015 - jrecord@suse.com
 
 - Added sle11sp4 for SLE11 SP4 patterns
