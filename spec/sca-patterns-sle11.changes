@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Mon Jun 29 19:07:50 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp1/xen_SUSE-SU-2015_1156-1_11.1.py
+  sle11sp2/java_SUSE-SU-2015_1086-3_11.2.py
+  sle11sp2/xen_SUSE-SU-2015_1157-1_11.2.py
+  sle11sp3/java_SUSE-SU-2015_1086-4_11.3.py
+  sle11sp3/kvm_SUSE-SU-2015_1152-1_11.3.py
+
+-------------------------------------------------------------------
 Wed Jun 24 18:20:19 UTC 2015 - jrecord@suse.com
 
 - New Pattern
