@@ -1,4 +1,18 @@
 -------------------------------------------------------------------
+Thu Jul  9 15:27:58 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp1/openssl_SUSE-SU-2015_1184-1_11.1.py
+  sle11sp2/openssl_SUSE-SU-2015_1184-2_11.2.py
+  sle11sp3/bind_SUSE-SU-2015_1205-1_11.3.py
+  sle11sp3/flash-player_SUSE-SU-2015_1214-1_11.3.py
+  sle11sp3/mysql_SUSE-SU-2015_1177-1_11.3.py
+  sle11sp3/ntp_SUSE-SU-2015_1173-1_11.3.py
+  sle11sp3/openssl_SUSE-SU-2015_1182-2_11.3.py
+  sle11sp3/openssl_SUSE-SU-2015_1183-2_11.3.py
+  sle11sp4/flash-player_SUSE-SU-2015_1214-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Jun 29 19:07:50 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
