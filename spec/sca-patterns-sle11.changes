@@ -1,4 +1,20 @@
 -------------------------------------------------------------------
+Thu Jul 30 16:32:02 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp1/mysql_SUSE-SU-2015_1177-2_11.1.py
+  sle11sp2/mysql_SUSE-SU-2015_1177-2_11.2.py
+  sle11sp3/MozillaFirefox_SUSE-SU-2015_1268-2_11.3.py
+  sle11sp3/flash-player_SUSE-SU-2015_1258-1_11.3.py
+  sle11sp3/java_SUSE-SU-2015_1320-1_11.3.py
+  sle11sp3/php_SUSE-SU-2015_1265-1_11.3.py
+  sle11sp4/MozillaFirefox_SUSE-SU-2015_1268-1_11.4.py
+  sle11sp4/MozillaFirefox_SUSE-SU-2015_1268-2_11.4.py
+  sle11sp4/flash-player_SUSE-SU-2015_1258-1_11.4.py
+  sle11sp4/java_SUSE-SU-2015_1320-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2015_1299-1_11.4.py
+
+-------------------------------------------------------------------
 Thu Jul  9 15:27:58 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
