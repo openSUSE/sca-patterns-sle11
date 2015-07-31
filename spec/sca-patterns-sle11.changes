@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Jul 31 22:11:46 UTC 2015 - jrecord@suse.com
+
+- New Pattern
+  sle11sp3/cifs-mount-7016703.py
+
+-------------------------------------------------------------------
 Thu Jul 30 20:29:38 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
