@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Fri Aug 14 19:37:36 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/java_SUSE-SU-2015_1375-1_11.2.py
+  sle11sp3/flash-player_SUSE-SU-2015_1373-1_11.3.py
+  sle11sp3/java_SUSE-SU-2015_1375-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2015_1376-1_11.3.py
+  sle11sp3/mozillafirefox_SUSE-SU-2015_1380-1_11.3.py
+  sle11sp4/flash-player_SUSE-SU-2015_1373-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2015_1380-1_11.4.py
+
+-------------------------------------------------------------------
 Fri Jul 31 22:29:10 UTC 2015 - jrecord@suse.com
 
 - New Pattern
