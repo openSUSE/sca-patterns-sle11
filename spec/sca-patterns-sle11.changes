@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Mon Aug 24 20:44:48 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp1/kvm_SUSE-SU-2015_1409-1_11.1.py
+  sle11sp1/xen_SUSE-SU-2015_1421-1_11.1.py
+  sle11sp2/kvm_SUSE-SU-2015_1426-1_11.2.py
+  sle11sp3/glibc_SUSE-SU-2015_1424-1_11.3.py
+  sle11sp4/glibc_SUSE-SU-2015_1424-1_11.4.py
+
+-------------------------------------------------------------------
 Fri Aug 14 19:37:36 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
