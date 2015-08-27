@@ -1,8 +1,9 @@
 -------------------------------------------------------------------
-Wed Aug 26 16:33:03 UTC 2015 - jrecord@suse.com
+Thu Aug 27 19:12:59 UTC 2015 - jrecord@suse.com
 
 - New Patterns
   sle11all/acpi-50-7016776.py
+  sle11sp3/winbind-key-7016777.py
 
 -------------------------------------------------------------------
 Mon Aug 24 20:44:48 UTC 2015 - jrecord@suse.com
