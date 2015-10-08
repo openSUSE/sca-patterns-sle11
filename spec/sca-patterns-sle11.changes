@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Thu Oct  8 17:19:04 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/php5_SUSE-SU-2015_1701-1_11.2.py
+  sle11sp3/flash-player_SUSE-SU-2015_1614-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2015_1592-1_11.3.py
+  sle11sp3/kernel_SUSE-SU-2015_1611-1_11.3.py
+  sle11sp3/openssh_SUSE-SU-2015_1581-1_11.3.py
+  sle11sp4/flash-player_SUSE-SU-2015_1614-1_11.4.py
+
+-------------------------------------------------------------------
 Thu Sep 17 20:50:00 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
