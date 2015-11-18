@@ -1,4 +1,21 @@
 -------------------------------------------------------------------
+Wed Nov 18 21:59:57 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/firefox_SUSE-SU-2015_1978-1_11.2.py
+  sle11sp2/xen_SUSE-SU-2015_1952-1_11.2.py
+  sle11sp3/firefox_SUSE-SU-2015_1981-1_11.3.py
+  sle11sp3/java_SUSE-SU-2015_1875-1_11.3.py
+  sle11sp3/java_SUSE-SU-2015_1875-2_11.3.py
+  sle11sp3/krb5_SUSE-SU-2015_1898-1_11.3.py
+  sle11sp3/xen_SUSE-SU-2015_1853-1_11.3.py
+  sle11sp4/firefox_SUSE-SU-2015_1981-1_11.4.py
+  sle11sp4/java_SUSE-SU-2015_1875-1_11.4.py
+  sle11sp4/java_SUSE-SU-2015_1875-2_11.4.py
+  sle11sp4/krb5_SUSE-SU-2015_1898-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2015_1894-1_11.4.py
+
+-------------------------------------------------------------------
 Thu Oct 29 20:37:20 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
