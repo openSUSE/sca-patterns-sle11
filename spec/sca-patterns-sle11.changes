@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Fri Dec  4 15:44:46 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/dhcpcd_SUSE-SU-2015_2174-1_11.2.py
+  sle11sp2/java_SUSE-SU-2015_2166-1_11.2.py
+  sle11sp3/dhcpcd_SUSE-SU-2015_2174-1_11.3.py
+  sle11sp3/java_SUSE-SU-2015_2166-1_11.3.py
+  sle11sp3/kernel_SUSE-SU-2015_2108-1_11.3.py
+  sle11sp4/dhcpcd_SUSE-SU-2015_2174-1_11.4.py
+  sle11sp4/java_SUSE-SU-2015_2182-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Nov 18 21:59:57 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
