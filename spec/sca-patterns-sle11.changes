@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Mon Dec 14 23:25:52 UTC 2015 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/java_SUSE-SU-2015_2216-1_11.2.py
+  sle11sp3/flash-player_SUSE-SU-2015_2236-1_11.3.py
+  sle11sp3/java_SUSE-SU-2015_2216-1_11.3.py
+  sle11sp4/flash-player_SUSE-SU-2015_2236-1_11.4.py
+
+-------------------------------------------------------------------
 Fri Dec  4 15:44:46 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
