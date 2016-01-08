@@ -1,4 +1,23 @@
 -------------------------------------------------------------------
+Fri Jan  8 20:34:54 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/bind_SUSE-SU-2015_2340-1_11.2.py
+  sle11sp2/mozillafirefox_SUSE-SU-2015_2336-1_11.2.py
+  sle11sp2/samba_SUSE-SU-2016_0032-1_11.2.py
+  sle11sp3/bind_SUSE-SU-2015_2340-1_11.3.py
+  sle11sp3/flash-player_SUSE-SU-2015_2402-1_11.3.py
+  sle11sp3/grub2_SUSE-SU-2015_2386-1_11.3.py
+  sle11sp3/kvm_SUSE-SU-2016_0020-1_11.3.py
+  sle11sp3/mozillafirefox_SUSE-SU-2015_2334-1_11.3.py
+  sle11sp4/bind_SUSE-SU-2015_2340-1_11.4.py
+  sle11sp4/flash-player_SUSE-SU-2015_2402-1_11.4.py
+  sle11sp4/grub2_SUSE-SU-2015_2385-1_11.4.py
+  sle11sp4/kernel-rt_SUSE-SU-2015_2350-1_11.4.py
+  sle11sp4/kvm_SUSE-SU-2016_0010-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2015_2334-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Dec 14 23:25:52 UTC 2015 - jrecord@suse.com
 
 - New Security Patterns
