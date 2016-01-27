@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Wed Jan 27 18:27:10 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/bind_SUSE-SU-2016_0200-1_11.2.py
+  sle11sp3/bind_SUSE-SU-2016_0200-1_11.3.py
+  sle11sp3/openssh_SUSE-SU-2016_0119-1_11.3.py
+  sle11sp3/samba_SUSE-SU-2016_0164-1_11.3.py
+  sle11sp4/bind_SUSE-SU-2016_0200-1_11.4.py
+  sle11sp4/openssh_SUSE-SU-2016_0120-1_11.4.py
+  sle11sp4/samba_SUSE-SU-2016_0164-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Jan 27 18:04:08 UTC 2016 - jrecord@suse.com
 
 - New XFS Patterns
