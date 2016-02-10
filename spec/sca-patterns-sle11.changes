@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Wed Feb 10 21:10:23 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp3/java_SUSE-SU-2016_0269-1_11.3.py
+  sle11sp3/kernel-rt_SUSE-SU-2016_0354-1_11.3.py
+  sle11sp3/mozillafirefox_SUSE-SU-2016_0334-1_11.3.py
+  sle11sp4/flash-player_SUSE-SU-2016_0400-1_11.4.py
+  sle11sp4/java_SUSE-SU-2016_0269-1_11.4.py
+  sle11sp4/java_SUSE-SU-2016_0399-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2016_0334-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Jan 27 18:27:10 UTC 2016 - jrecord@suse.com
 
 - New Security Patterns
