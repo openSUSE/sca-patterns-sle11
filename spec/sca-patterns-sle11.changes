@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Thu Mar  3 20:53:48 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/openssl_SUSE-SU-2016_0624-1_11.2.py (DROWN)
+  sle11sp3/java_SUSE-SU-2016_0636-1_11.3.py
+  sle11sp3/openssl_SUSE-SU-2016_0624-1_11.3.py (DROWN)
+  sle11sp4/compat-openssl097g_SUSE-SU-2016_0631-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2016_0564-1_11.4.py
+  sle11sp4/openssl_SUSE-SU-2016_0624-1_11.4.py (DROWN)
+
+-------------------------------------------------------------------
 Tue Feb 23 19:42:29 UTC 2016 - jrecord@suse.com
 
 - Updated patterns (bsc#953203)
