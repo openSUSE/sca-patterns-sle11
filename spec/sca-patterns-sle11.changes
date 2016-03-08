@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Mar  8 17:40:59 UTC 2016 - jrecord@suse.com
+
+- New Security Pattern
+  sle11sp4/postgresql94_SUSE-SU-2016_0677-1_11.4.py
+
+-------------------------------------------------------------------
 Thu Mar  3 20:53:48 UTC 2016 - jrecord@suse.com
 
 - New Security Patterns
