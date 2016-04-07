@@ -1,4 +1,21 @@
 -------------------------------------------------------------------
+Thu Apr  7 18:50:14 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/bind_SUSE-SU-2016_0825-1_11.2.py
+  sle11sp2/firefox_SUSE-SU-2016_0909-1_11.2.py
+  sle11sp2/samba_SUSE-SU-2016_0905-1_11.2.py
+  sle11sp3/bind_SUSE-SU-2016_0825-1_11.3.py
+  sle11sp3/firefox_SUSE-SU-2016_0777-1_11.3.py
+  sle11sp3/java_SUSE-SU-2016_0770-1_11.3.py
+  sle11sp4/bind_SUSE-SU-2016_0825-1_11.4.py
+  sle11sp4/firefox_SUSE-SU-2016_0777-1_11.4.py
+  sle11sp4/java_SUSE-SU-2016_0956-1_11.4.py
+  sle11sp4/samba_SUSE-SU-2016_0837-1_11.4.py
+  sle11sp4/tomcat6_SUSE-SU-2016_0839-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2016_0955-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Mar 14 18:08:39 UTC 2016 - jrecord@suse.com
 
 - New Security Pattern
