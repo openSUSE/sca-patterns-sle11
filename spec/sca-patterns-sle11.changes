@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Fri Apr 22 15:25:45 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/samba_SUSE-SU-2016_1028-1_11.2.py
+  sle11sp3/samba_SUSE-SU-2016_1023-1_11.3.py
+  sle11sp4/kernel-rt_SUSE-SU-2016_1102-1_11.4.py
+  sle11sp4/samba_SUSE-SU-2016_1023-1_11.4.py
+
+-------------------------------------------------------------------
 Thu Apr  7 18:50:14 UTC 2016 - jrecord@suse.com
 
 - New Security Patterns
