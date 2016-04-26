@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Tue Apr 26 16:12:16 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/xen_SUSE-SU-2016_1154-1_11.2.py
+  sle11sp4/php53_SUSE-SU-2016_1145-1_11.4.py
+
+- Detect sles11sp4 boot delay issue TID7017498
+  sle11sp4/boot-delay-7017498.py
+
+-------------------------------------------------------------------
 Fri Apr 22 15:25:45 UTC 2016 - jrecord@suse.com
 
 - New Security Patterns
