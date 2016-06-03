@@ -1,4 +1,35 @@
 -------------------------------------------------------------------
+Fri Jun  3 16:32:52 UTC 2016 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp2/imagemagick_SUSE-SU-2016_1275-1_11.2.py
+  sle11sp2/imagemagick_SUSE-SU-2016_1301-1_11.2.py
+  sle11sp2/java_SUSE-SU-2016_1378-1_11.2.py
+  sle11sp2/java_SUSE-SU-2016_1379-1_11.2.py
+  sle11sp2/ntp_SUSE-SU-2016_1311-1_11.2.py
+  sle11sp2/ntp_SUSE-SU-2016_1471-1_11.2.py
+  sle11sp2/openssl_SUSE-SU-2016_1290-1_11.2.py
+  sle11sp3/compat-openssl097g_SUSE-SU-2016_1231-1_11.3.py
+  sle11sp3/firefox_SUSE-SU-2016_1374-1_11.3.py
+  sle11sp3/imagemagick_SUSE-SU-2016_1275-1_11.3.py
+  sle11sp3/imagemagick_SUSE-SU-2016_1301-1_11.3.py
+  sle11sp3/java_SUSE-SU-2016_1378-1_11.3.py
+  sle11sp3/java_SUSE-SU-2016_1379-1_11.3.py
+  sle11sp3/ntp_SUSE-SU-2016_1311-1_11.3.py
+  sle11sp3/ntp_SUSE-SU-2016_1471-1_11.3.py
+  sle11sp3/openssl_SUSE-SU-2016_1290-1_11.3.py
+  sle11sp4/compat-openssl097g_SUSE-SU-2016_1231-1_11.4.py
+  sle11sp4/cyrus-imapd_SUSE-SU-2016_1459-1_11.4.py
+  sle11sp4/firefox_SUSE-SU-2016_1374-1_11.4.py
+  sle11sp4/imagemagick_SUSE-SU-2016_1275-1_11.4.py
+  sle11sp4/imagemagick_SUSE-SU-2016_1301-1_11.4.py
+  sle11sp4/java_SUSE-SU-2016_1300-1_11.4.py
+  sle11sp4/mysql_SUSE-SU-2016_1279-1_11.4.py
+  sle11sp4/ntp_SUSE-SU-2016_1175-1_11.4.py
+  sle11sp4/ntp_SUSE-SU-2016_1278-1_11.4.py
+  sle11sp4/openssl_SUSE-SU-2016_1290-1_11.4.py
+
+-------------------------------------------------------------------
 Tue Apr 26 16:12:16 UTC 2016 - jrecord@suse.com
 
 - New Security Patterns
