@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Wed Jun 15 17:41:42 UTC 2016 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/php53_SUSE-SU-2016_1581-1_11.3.py
+  sle11sp4/ntp_SUSE-SU-2016_1584-1_11.4.py
+  sle11sp4/php53_SUSE-SU-2016_1581-1_11.4.py
+- Losing a single device with multipath-tools 0.4.9-112.1 leads to loss of complete LUN map
+  sle11sp4/mpio-path-failure-7017629.py
+
+-------------------------------------------------------------------
 Mon Jun 13 19:56:18 UTC 2016 - jason.record@suse.com
 
 - New Security Pattern
