@@ -1,4 +1,17 @@
 -------------------------------------------------------------------
+Fri Jun 17 16:30:13 UTC 2016 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp2/imagemagick_SUSE-SU-2016_1610-1_11.2.py
+  sle11sp2/libxml2_SUSE-SU-2016_1604-1_11.2.py
+  sle11sp2/ntp_SUSE-SU-2016_1602-1_11.2.py
+  sle11sp3/imagemagick_SUSE-SU-2016_1610-1_11.3.py
+  sle11sp3/libxml2_SUSE-SU-2016_1604-1_11.3.py
+  sle11sp3/ntp_SUSE-SU-2016_1602-1_11.3.py
+  sle11sp4/imagemagick_SUSE-SU-2016_1610-1_11.4.py
+  sle11sp4/libxml2_SUSE-SU-2016_1604-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Jun 15 17:41:42 UTC 2016 - jason.record@suse.com
 
 - New Security Patterns
