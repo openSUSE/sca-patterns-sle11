@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Jun 20 15:05:02 UTC 2016 - jason.record@suse.com
+
+- System may crash if the kernel module be2net is loaded
+  sle11sp4/be2net-x3850-7017676.py
+
+-------------------------------------------------------------------
 Fri Jun 17 16:30:13 UTC 2016 - jason.record@suse.com
 
 - New Security Patterns
