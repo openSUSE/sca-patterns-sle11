@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Jul  5 22:32:38 UTC 2016 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/kvm_SUSE-SU-2016_1698-1_11.3.py
+  sle11sp4/kernel-rt_SUSE-SU-2016_1707-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Jun 20 15:05:02 UTC 2016 - jason.record@suse.com
 
 - System may crash if the kernel module be2net is loaded
