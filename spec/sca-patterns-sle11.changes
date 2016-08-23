@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Aug 23 21:15:36 UTC 2016 - jason.record@suse.com
+
+- VMware guest crashes with kernel BUG at blk-core.c:2392
+  sle11sp3/kernel-blkcore-7017971.py
+
+-------------------------------------------------------------------
 Tue Aug 23 15:47:48 UTC 2016 - jrecord@suse.com
 
 - New Security Patterns
