@@ -1,4 +1,25 @@
 -------------------------------------------------------------------
+Tue Aug 23 15:47:48 UTC 2016 - jrecord@suse.com
+
+- New Security Patterns
+  sle11sp2/bsdtar_SUSE-SU-2016_1939-1_11.2.py
+  sle11sp2/kernel_SUSE-SU-2016_2074-1_11.2.py
+  sle11sp2/mozillafirefox_SUSE-SU-2016_2061-1_11.2.py
+  sle11sp2/php5_SUSE-SU-2016_2080-1_11.2.py
+  sle11sp3/bsdtar_SUSE-SU-2016_1939-1_11.3.py
+  sle11sp3/mozillafirefox_SUSE-SU-2016_1799-1_11.3.py
+  sle11sp3/xen_SUSE-SU-2016_1745-1_11.3.py
+  sle11sp4/bsdtar_SUSE-SU-2016_1939-1_11.4.py
+  sle11sp4/imagemagick_SUSE-SU-2016_1782-1_11.4.py
+  sle11sp4/kernel-rt_SUSE-SU-2016_1985-1_11.4.py
+  sle11sp4/kvm_SUSE-SU-2016_1785-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2016_1799-1_11.4.py
+  sle11sp4/php53_SUSE-SU-2016_2013-1_11.4.py
+  sle11sp4/squid3_SUSE-SU-2016_1996-1_11.4.py
+  sle11sp4/squid3_SUSE-SU-2016_2089-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2016_2100-1_11.4.py
+
+-------------------------------------------------------------------
 Tue Jul  5 22:32:38 UTC 2016 - jason.record@suse.com
 
 - New Security Patterns
