@@ -1,4 +1,31 @@
 -------------------------------------------------------------------
+Mon Oct 24 16:19:58 UTC 2016 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp2/bind_SUSE-SU-2016_2405-1_11.2.py
+  sle11sp2/ghostscript-library_SUSE-SU-2016_2493-1_11.2.py
+  sle11sp2/java_SUSE-SU-2016_2348-1_11.2.py
+  sle11sp2/kernel_SUSE-SU-2016_2596-1_11.2.py
+  sle11sp2/mozillafirefox_SUSE-SU-2016_2431-1_11.2.py
+  sle11sp2/openssl_SUSE-SU-2016_2458-1_11.2.py
+  sle11sp2/php53_SUSE-SU-2016_2461-1_11.2.py
+  sle11sp2/xen_SUSE-SU-2016_2528-1_11.2.py
+  sle11sp3/bind_SUSE-SU-2016_2405-1_11.3.py
+  sle11sp3/ghostscript-library_SUSE-SU-2016_2493-1_11.3.py
+  sle11sp3/java_SUSE-SU-2016_2348-1_11.3.py
+  sle11sp3/mozillafirefox_SUSE-SU-2016_2513-1_11.3.py
+  sle11sp3/openssl_SUSE-SU-2016_2458-1_11.3.py
+  sle11sp3/php53_SUSE-SU-2016_2459-1_11.3.py
+  sle11sp4/bind_SUSE-SU-2016_2405-1_11.4.py
+  sle11sp4/ghostscript-library_SUSE-SU-2016_2493-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2016_2513-1_11.4.py
+  sle11sp4/openssl_SUSE-SU-2016_2458-1_11.4.py
+  sle11sp4/php53_SUSE-SU-2016_2459-1_11.4.py
+  sle11sp4/postgresql94_SUSE-SU-2016_2418-1_11.4.py
+  sle11sp4/quagga_SUSE-SU-2016_2569-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2016_2507-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Sep 21 16:30:22 UTC 2016 - jason.record@suse.com
 
 - New Security Patterns
