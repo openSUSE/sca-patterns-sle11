@@ -1,4 +1,20 @@
 -------------------------------------------------------------------
+Wed Dec 14 16:47:10 UTC 2016 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp2/java_SUSE-SU-2016_3040-1_11.2.ltss.py
+  sle11sp2/java_SUSE-SU-2016_3068-1_11.2.ltss.py
+  sle11sp2/mozilla-nss_SUSE-SU-2016_3105-1_11.2.ltss.py
+  sle11sp2/xen_SUSE-SU-2016_3044-1_11.2.ltss.py
+  sle11sp3/java_SUSE-SU-2016_3040-1_11.3.ltss.py
+  sle11sp3/java_SUSE-SU-2016_3068-1_11.3.ltss.py
+  sle11sp3/mozilla-nss_SUSE-SU-2016_3080-1_11.3.ltss.py
+  sle11sp4/imagemagick_SUSE-SU-2016_2964-1_11.4.py
+  sle11sp4/java_SUSE-SU-2016_3041-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2016_2976-1_11.4.py
+  sle11sp4/mozilla-nss_SUSE-SU-2016_3080-1_11.4.py
+
+-------------------------------------------------------------------
 Tue Nov 29 20:38:12 UTC 2016 - jrecord@suse.com
 
 - New Security Pattern
