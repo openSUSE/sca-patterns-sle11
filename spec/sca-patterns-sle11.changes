@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Dec 15 13:38:05 UTC 2016 - jrecord@suse.com
+
+- Pattern to detect insufficient /boot space for updates
+  sle11all/boot-space-7018350.py
+
+-------------------------------------------------------------------
 Wed Dec 14 16:47:10 UTC 2016 - jason.record@suse.com
 
 - New Security Patterns
