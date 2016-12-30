@@ -1,8 +1,19 @@
 -------------------------------------------------------------------
-Fri Dec 30 21:03:45 UTC 2016 - jason.record@suse.com
+Fri Dec 30 21:26:17 UTC 2016 - jason.record@suse.com
 
 - Checks for dual root users that interfere with iSCSI
   sle11all/iscsi-dual-root-7018427.py
+- New Security Patterns
+  sle11sp2/kernel_SUSE-SU-2016_3252-1_11.2.ltss.py
+  sle11sp2/mozillafirefox_SUSE-SU-2016_3223-1_11.2.ltss.py
+  sle11sp3/kernel_SUSE-SU-2016_3248-1_11.3.ltss.py
+  sle11sp3/mozillafirefox_SUSE-SU-2016_3210-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2016_3273-1_11.3.ltss.py
+  sle11sp4/dnsmasq_SUSE-SU-2016_3199-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2016_3203-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2016_3210-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2016_3174-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2016_3221-1_11.4.py
 
 -------------------------------------------------------------------
 Thu Dec 15 13:38:05 UTC 2016 - jrecord@suse.com
