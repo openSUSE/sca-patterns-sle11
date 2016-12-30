@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Dec 30 21:03:45 UTC 2016 - jason.record@suse.com
+
+- Checks for dual root users that interfere with iSCSI
+  sle11all/iscsi-dual-root-7018427.py
+
+-------------------------------------------------------------------
 Thu Dec 15 13:38:05 UTC 2016 - jrecord@suse.com
 
 - Pattern to detect insufficient /boot space for updates
