@@ -1,4 +1,32 @@
 -------------------------------------------------------------------
+Tue Apr  4 14:28:53 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp2/bind_SUSE-SU-2017_0112-1_11.2.ltss.py
+  sle11sp2/kernel_SUSE-SU-2017_0333-1_11.2.ltss.py
+  sle11sp3/bind_SUSE-SU-2017_0112-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2017_0494-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2017_0913-1_11.3.ltss.py
+  sle11sp3/mozillafirefox_SUSE-SU-2017_0426-1_11.3.ltss.py
+  sle11sp3/mozillafirefox_SUSE-SU-2017_0732-1_11.3.ltss.py
+  sle11sp3/mysql_SUSE-SU-2017_0408-1_11.3.ltss.py
+  sle11sp3/php53_SUSE-SU-2017_0568-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2017_0718-1_11.3.ltss.py
+  sle11sp4/bind_SUSE-SU-2017_0112-1_11.4.py
+  sle11sp4/gnutls_SUSE-SU-2017_0304-1_11.4.py
+  sle11sp4/gstreamer-0_10-plugins-good_SUSE-SU-2017_0225-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2017_0437-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2017_0912-1_11.4.py
+  sle11sp4/libvncserver_SUSE-SU-2017_0104-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2017_0426-1_11.4.py
+  sle11sp4/mozillafirefox_SUSE-SU-2017_0732-1_11.4.py
+  sle11sp4/mysql_SUSE-SU-2017_0408-1_11.4.py
+  sle11sp4/php53_SUSE-SU-2017_0568-1_11.4.py
+  sle11sp4/samba_SUSE-SU-2017_0841-1_11.4.py
+  sle11sp4/spice_SUSE-SU-2017_0396-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2017_0647-1_11.4.py
+
+-------------------------------------------------------------------
 Fri Dec 30 21:26:17 UTC 2016 - jason.record@suse.com
 
 - Checks for dual root users that interfere with iSCSI
