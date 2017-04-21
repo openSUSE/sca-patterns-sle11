@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Fri Apr 21 15:39:19 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/bind_SUSE-SU-2017_1027-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2017_1058-1_11.3.ltss.py
+  sle11sp4/bind_SUSE-SU-2017_1027-1_11.4.py
+  sle11sp4/jasper_SUSE-SU-2017_0946-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2017_1081-1_11.4.py
+
+-------------------------------------------------------------------
 Tue Apr  4 14:28:53 UTC 2017 - jason.record@suse.com
 
 - New Security Patterns
