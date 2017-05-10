@@ -1,4 +1,18 @@
 -------------------------------------------------------------------
+Wed May 10 20:19:51 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/mozilla-nss_SUSE-SU-2017_1175-1_11.3.ltss.py
+  sle11sp3/samba_SUSE-SU-2017_1216-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2017_1146-1_11.3.ltss.py
+  sle11sp4/ghostscript-library_SUSE-SU-2017_1153-1_11.4.py
+  sle11sp4/kvm_SUSE-SU-2017_1135-1_11.4.py
+  sle11sp4/mozilla-nss_SUSE-SU-2017_1175-1_11.4.py
+  sle11sp4/mysql_SUSE-SU-2017_1137-1_11.4.py
+  sle11sp4/samba_SUSE-SU-2017_1216-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2017_1145-1_11.4.py
+
+-------------------------------------------------------------------
 Fri Apr 21 15:39:19 UTC 2017 - jason.record@suse.com
 
 - New Security Patterns
