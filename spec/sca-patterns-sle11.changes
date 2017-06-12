@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Jun 12 21:05:20 UTC 2017 - jason.record@suse.com
+
+- Pattern for XFS corruption
+  sle11sp4/xfs-corruption-7020905.py
+
+-------------------------------------------------------------------
 Fri Jun  2 23:04:53 UTC 2017 - jason.record@suse.com
 
 - Added security patterns (bsc#1042514)
