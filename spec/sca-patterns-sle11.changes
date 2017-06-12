@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Mon Jun 12 21:09:36 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/java_SUSE-SU-2017_1444-1_11.3.ltss.py
+  sle11sp3/rpcbind_SUSE-SU-2017_1468-1_11.3.ltss.py
+  sle11sp4/rpcbind_SUSE-SU-2017_1468-1_11.4.py
+  sle11sp4/strongswan_SUSE-SU-2017_1471-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Jun 12 21:05:20 UTC 2017 - jason.record@suse.com
 
 - Pattern for XFS corruption
