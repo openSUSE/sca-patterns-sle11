@@ -1,4 +1,31 @@
 -------------------------------------------------------------------
+Mon Jul 24 16:56:36 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/bind_SUSE-SU-2017_1737-1_11.3.ltss.py
+  sle11sp3/glibc_SUSE-SU-2017_1621-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2017_1613-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2017_1706-1_11.3.ltss.py
+  sle11sp3/openvpn_SUSE-SU-2017_1642-1_11.3.ltss.py
+  sle11sp3/tomcat6_SUSE-SU-2017_1632-1_11.3.ltss.py
+  sle11sp3/unrar_SUSE-SU-2017_1760-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2017_1715-1_11.3.ltss.py
+  sle11sp3/xorg-x11-server_SUSE-SU-2017_1850-1_11.3.ltss.py
+  sle11sp4/bind_SUSE-SU-2017_1737-1_11.4.py
+  sle11sp4/glibc_SUSE-SU-2017_1621-1_11.4.py
+  sle11sp4/jakarta-taglibs-standard_SUSE-SU-2017_1701-1_11.4.py
+  sle11sp4/kernel-source_SUSE-SU-2017_1696-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2017_1628-1_11.4.py
+  sle11sp4/ncurses_SUSE-SU-2017_1790-1_11.4.py
+  sle11sp4/openvpn_SUSE-SU-2017_1642-1_11.4.py
+  sle11sp4/php53_SUSE-SU-2017_1709-1_11.4.py
+  sle11sp4/spice_SUSE-SU-2017_1837-1_11.4.py
+  sle11sp4/tomcat6_SUSE-SU-2017_1632-1_11.4.py
+  sle11sp4/unrar_SUSE-SU-2017_1760-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2017_1770-1_11.4.py
+  sle11sp4/xorg-x11-server_SUSE-SU-2017_1850-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Jun 12 21:09:36 UTC 2017 - jason.record@suse.com
 
 - New Security Patterns
