@@ -1,4 +1,17 @@
 -------------------------------------------------------------------
+Wed Oct 11 20:33:50 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/dnsmasq_SUSE-SU-2017_2617-1_11.3.ltss.py
+  sle11sp3/emacs_SUSE-SU-2017_2532-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2017_2525-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2017_2611-1_11.3.ltss.py
+  sle11sp4/dnsmasq_SUSE-SU-2017_2619-1_11.4.py
+  sle11sp4/emacs_SUSE-SU-2017_2532-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2017_2548-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2017_2450-1_11.4.py
+
+-------------------------------------------------------------------
 Fri Sep  8 22:51:01 UTC 2017 - jason.record@suse.com
 
 - Detect delayed NFS file listings (bsc#1048232)
