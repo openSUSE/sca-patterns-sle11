@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Thu Oct 19 17:00:14 UTC 2017 - jason.record@suse.com
+
+- New Security Patterns
+  sle11sp3/kernel_SUSE-SU-2017_2725-1_11.3.ltss.py
+  sle11sp3/wpa_supplicant_SUSE-SU-2017_2752-1_11.3.ltss.py
+  sle11sp4/kernel_SUSE-SU-2017_2723-1_11.4.py
+  sle11sp4/wpa_supplicant_SUSE-SU-2017_2752-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Oct 11 20:33:50 UTC 2017 - jason.record@suse.com
 
 - New Security Patterns
