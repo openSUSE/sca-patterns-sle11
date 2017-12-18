@@ -1,15 +1,16 @@
+# 
 # spec file for package sca-patterns-sle11
 #
-# Copyright (C) 2014 SUSE LLC
+# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
 #
-# This file and all modifications and additions to the pristine
-# package are under the same license as the package itself.
-#
-# Source developed at:
-#  https://github.com/g23guy/sca-patterns-sle11
-#
-# norootforbuild
-# neededforbuild
+# All modifications and additions to the file contributed by third parties
+# remain the property of their copyright owners, unless otherwise agreed
+# upon. The license for this file, and modifications and additions to the
+# file, is the same license as for the pristine package itself (unless the
+# license for the pristine package is not an Open Source License, in which
+# case the license is the MIT License). An "Open Source License" is a
+# license that conforms to the Open Source Definition (Version 1.9)
+# published by the Open Source Initiative.
 
 %define sca_common sca
 %define patdirbase /usr/lib/%{sca_common}
@@ -20,25 +21,22 @@
 %define category SLE
 
 Name:         sca-patterns-sle11
+Version:      1.3
+Release:      0
 Summary:      Supportconfig Analysis Patterns for SLE11
+License:      GPL-2.0
 URL:          https://github.com/g23guy/sca-patterns-sle11
 Group:        System/Monitoring
-License:      GPL-2.0
-Autoreqprov:  on
-Version:      1.3
-Release:      170
 Source:       %{name}-%{version}.tar.gz
-BuildRoot:    %{_tmppath}/%{name}-%{version}
-Buildarch:    noarch
 BuildRequires: fdupes
 Requires:     sca-patterns-base
+Buildarch:    noarch
+
 %description
 Supportconfig Analysis (SCA) appliance patterns to identify known
-issues relating to all versions of SLES/SLED 11
+issues relating to all versions of SLE11
 
-Authors:
---------
-    Jason Record <jrecord@suse.com>
+See %{_docdir}/sca-patterns-base/COPYING.GPLv2
 
 %prep
 %setup -q
@@ -47,22 +45,19 @@ Authors:
 
 %install
 pwd;ls -la
-rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11all
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp0
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp1
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp2
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp3
-install -d $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp4
-install -d $RPM_BUILD_ROOT/usr/share/doc/packages/%{sca_common}
-install -m 444 patterns/COPYING.GPLv2 $RPM_BUILD_ROOT/usr/share/doc/packages/%{sca_common}
-install -m %{mode} patterns/%{category}/sle11all/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11all
-install -m %{mode} patterns/%{category}/sle11sp0/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp0
-install -m %{mode} patterns/%{category}/sle11sp1/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp1
-install -m %{mode} patterns/%{category}/sle11sp2/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp2
-install -m %{mode} patterns/%{category}/sle11sp3/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp3
-install -m %{mode} patterns/%{category}/sle11sp4/* $RPM_BUILD_ROOT/%{patdir}/%{category}/sle11sp4
+install -d %{buildroot}/%{patdir}/%{category}
+install -d %{buildroot}/%{patdir}/%{category}/sle11all
+install -d %{buildroot}/%{patdir}/%{category}/sle11sp0
+install -d %{buildroot}/%{patdir}/%{category}/sle11sp1
+install -d %{buildroot}/%{patdir}/%{category}/sle11sp2
+install -d %{buildroot}/%{patdir}/%{category}/sle11sp3
+install -d %{buildroot}/%{patdir}/%{category}/sle11sp4
+install -m %{mode} patterns/%{category}/sle11all/* %{buildroot}/%{patdir}/%{category}/sle11all
+install -m %{mode} patterns/%{category}/sle11sp0/* %{buildroot}/%{patdir}/%{category}/sle11sp0
+install -m %{mode} patterns/%{category}/sle11sp1/* %{buildroot}/%{patdir}/%{category}/sle11sp1
+install -m %{mode} patterns/%{category}/sle11sp2/* %{buildroot}/%{patdir}/%{category}/sle11sp2
+install -m %{mode} patterns/%{category}/sle11sp3/* %{buildroot}/%{patdir}/%{category}/sle11sp3
+install -m %{mode} patterns/%{category}/sle11sp4/* %{buildroot}/%{patdir}/%{category}/sle11sp4
 %fdupes %{buildroot}
 
 %files
@@ -76,8 +71,6 @@ install -m %{mode} patterns/%{category}/sle11sp4/* $RPM_BUILD_ROOT/%{patdir}/%{c
 %dir %{patdir}/%{category}/sle11sp2
 %dir %{patdir}/%{category}/sle11sp3
 %dir %{patdir}/%{category}/sle11sp4
-%dir /usr/share/doc/packages/%{sca_common}
-%doc %attr(-,root,root) /usr/share/doc/packages/%{sca_common}/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11all/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp0/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp1/*
@@ -86,7 +79,7 @@ install -m %{mode} patterns/%{category}/sle11sp4/* $RPM_BUILD_ROOT/%{patdir}/%{c
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp4/*
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %changelog
 
