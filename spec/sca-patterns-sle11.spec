@@ -78,8 +78,5 @@ install -m %{mode} patterns/%{category}/sle11sp4/* %{buildroot}/%{patdir}/%{cate
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp3/*
 %attr(%{mode},%{patuser},%{patgrp}) %{patdir}/%{category}/sle11sp4/*
 
-%clean
-rm -rf %{buildroot}
-
 %changelog
 
