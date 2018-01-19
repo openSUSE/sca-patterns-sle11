@@ -1,4 +1,16 @@
 -------------------------------------------------------------------
+Fri Jan 19 21:40:55 UTC 2018 - jason.record@suse.com
+
+- New Security Announcement Patterns
+  sle11sp3/glibc_SUSE-SU-2018_0075-1_11.3.ltss.py
+  sle11sp3/java_SUSE-SU-2018_0061-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2018_0040-1_11.3.ltss.py
+  sle11sp3/microcode_ctl_SUSE-SU-2018_0068-1_11.3.ltss.py
+  sle11sp4/glibc_SUSE-SU-2018_0075-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2018_0131-1_11.4.py
+  sle11sp4/microcode_ctl_SUSE-SU-2018_0068-1_11.4.py
+
+-------------------------------------------------------------------
 Mon Jan  8 17:54:34 UTC 2018 - jason.record@suse.com
 
 - New Security Announcement Pattern
