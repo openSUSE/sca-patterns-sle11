@@ -1,4 +1,31 @@
 -------------------------------------------------------------------
+Wed May  2 18:29:34 UTC 2018 - jason.record@suse.com
+
+- Detects missing shim that fails upgrade
+  sle11all/shim-upgrade-7022915.py
+
+- New Security Announcement Patterns
+  sle11sp3/clamav_SUSE-SU-2018_0863-1_11.3.ltss.py
+  sle11sp3/glibc_SUSE-SU-2018_0565-1_11.3.ltss.py
+  sle11sp3/java_SUSE-SU-2018_0645-1_11.3.ltss.py
+  sle11sp3/kernel_SUSE-SU-2018_0660-1_11.3.ltss.py
+  sle11sp3/microcode_ctl_SUSE-SU-2018_0705-1_11.3.ltss.py
+  sle11sp3/php53_SUSE-SU-2018_0806-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2018_0678-1_11.3.ltss.py
+  sle11sp4/clamav_SUSE-SU-2018_0863-1_11.4.py
+  sle11sp4/coreutils_SUSE-SU-2018_0866-1_11.4.py
+  sle11sp4/glibc_SUSE-SU-2018_0565-1_11.4.py
+  sle11sp4/java_SUSE-SU-2018_0630-1_11.4.py
+  sle11sp4/kernel-rt_SUSE-SU-2018_0555-1_11.4.py
+  sle11sp4/kernel_SUSE-SU-2018_1080-1_11.4.py
+  sle11sp4/kvm_SUSE-SU-2018_1077-1_11.4.py
+  sle11sp4/libvirt_SUSE-SU-2018_0838-1_11.4.py
+  sle11sp4/microcode_ctl_SUSE-SU-2018_0705-1_11.4.py
+  sle11sp4/openssl_SUSE-SU-2018_0975-1_11.4.py
+  sle11sp4/php53_SUSE-SU-2018_0806-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2018_0638-1_11.4.py
+
+-------------------------------------------------------------------
 Wed Feb 21 00:15:27 UTC 2018 - jason.record@suse.com
 
 - New Security Announcement Patterns
