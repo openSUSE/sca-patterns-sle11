@@ -1,4 +1,15 @@
 -------------------------------------------------------------------
+Mon Jun 11 18:11:24 UTC 2018 - jason.record@suse.com
+
+- New Security Announcement Patterns
+  sle11sp3/kernel_SUSE-SU-2018_1172-1_11.3.ltss.py
+  sle11sp3/patch_SUSE-SU-2018_1162-1_11.3.ltss.py
+  sle11sp3/xen_SUSE-SU-2018_1203-1_11.3.ltss.py
+  sle11sp4/kernel_SUSE-SU-2018_1171-1_11.4.py
+  sle11sp4/patch_SUSE-SU-2018_1162-1_11.4.py
+  sle11sp4/xen_SUSE-SU-2018_1181-1_11.4.py
+
+-------------------------------------------------------------------
 Wed May  2 18:29:34 UTC 2018 - jason.record@suse.com
 
 - Detects missing shim that fails upgrade
