@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed May  5 15:37:01 UTC 2021 - Jason Record <jason.record@suse.com>
+
+- New security announcement patterns (10) for version 1.3.2
+  + Apr 2021 (10) for SUSE-SU-2021:14690-1 SUSE-SU-2021:14702-1 SUSE-SU-2021:14705-1 SUSE-SU-2021:14709-1 SUSE-SU-2021:14700-1 SUSE-SU-2021:14708-1 SUSE-SU-2021:14684-1 SUSE-SU-2021:14704-1 SUSE-SU-2021:14712-1 SUSE-SU-2021:14692-1
+
+-------------------------------------------------------------------
 Tue May  4 20:27:12 UTC 2021 - Jason Record <jason.record@suse.com>
 
 - New regular patterns (3) for version 1.3.2
