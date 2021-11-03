@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for ntp SUSE-SU-2014:1686-3
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1 LTSS

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for ntp SUSE-SU-2015:0259-3
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1 LTSS

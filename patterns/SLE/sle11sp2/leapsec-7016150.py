@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Leap second June 2015
 # Description: Minimum Kernel versions

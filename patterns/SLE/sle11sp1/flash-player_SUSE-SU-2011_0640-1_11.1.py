@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for flash-player SUSE-SU-2011:0640-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1

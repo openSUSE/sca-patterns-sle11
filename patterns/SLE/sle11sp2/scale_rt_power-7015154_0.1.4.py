@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #Version 0.1.4
 
 # Title:       BUG: soft lockup and scale_rt_power: clock: messages

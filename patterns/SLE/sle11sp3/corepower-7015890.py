@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Core power limitation messages
 # Description: Core power limit notification messages flooding the logs

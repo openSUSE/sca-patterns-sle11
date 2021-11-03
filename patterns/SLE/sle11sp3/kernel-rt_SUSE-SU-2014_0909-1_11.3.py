@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for kernel-rt SUSE-SU-2014:0909-1
 # Description: Security fixes for SUSE Linux Enterprise Real Time Kernel 11 SP3

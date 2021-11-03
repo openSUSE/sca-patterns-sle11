@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for MozillaFirefox SUSE-SU-2020:14584-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4 LTSS

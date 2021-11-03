@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       MPIO LUN Hang
 # Description: Losing a single device with multipath-tools 0.4.9-112.1 leads to loss of complete LUN map

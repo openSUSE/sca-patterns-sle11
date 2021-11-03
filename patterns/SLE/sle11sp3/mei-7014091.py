@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Reboot command shuts down
 # Description: Command reboot shuts the system down instead of reboot

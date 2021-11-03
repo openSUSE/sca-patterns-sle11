@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       xfs_growfs causes kernel Oops
 # Description: Using xfs_growfs to expand an XFS filesystem causes a kernel Oops

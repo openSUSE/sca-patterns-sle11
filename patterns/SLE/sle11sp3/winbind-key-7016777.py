@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Windbind Error
 # Description: winbindd failure: key length too large

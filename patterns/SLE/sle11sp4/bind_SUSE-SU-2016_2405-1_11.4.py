@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for bind SUSE-SU-2016:2405-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4

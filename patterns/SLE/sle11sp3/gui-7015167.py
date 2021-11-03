@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       GUI fails with Secure Boot
 # Description: SLES 11 SP3 Does Not Run in GUI Mode on Systems with ASPEED AST2400 Graphics Controller and Secure Boot Enabled

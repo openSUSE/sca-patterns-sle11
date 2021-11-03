@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Checks for XFS error
 # Description: XFS error: xlog_space_left: head behind tail

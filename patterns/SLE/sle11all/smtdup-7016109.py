@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Checking SCCSync Duplicates 725
 # Description: smt-ncc-scc-migration displays duplicate entry messages

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Flash Player SA Critical SUSE-SU-2014:0897-1
 # Description: fixes three vulnerabilities

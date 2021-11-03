@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       iSCSI fails with duplicate root user
 # Description: iSCSI initiator does not discover iSCSI target when TCP/IP is working

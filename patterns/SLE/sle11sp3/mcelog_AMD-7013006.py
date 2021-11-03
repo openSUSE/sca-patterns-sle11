@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       mcelog failures
 # Description: mcelog not working with AMD processor family 16 or higher and SLES11 sp3.

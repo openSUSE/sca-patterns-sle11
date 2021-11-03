@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       GLX application failures
 # Description: GLX applications fail to start on Intel GFX cards with MESA 9.0.x

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for libsndfile SUSE-SU-2021:14769-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4 LTSS

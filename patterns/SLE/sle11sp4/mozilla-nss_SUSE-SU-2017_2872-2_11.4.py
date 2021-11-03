@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for mozilla-nss SUSE-SU-2017:2872-2
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4

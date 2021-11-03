@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for squid3 SUSE-SU-2011:1019-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1

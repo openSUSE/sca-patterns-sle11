@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Updated kernel with nfs4 causes panic
 # Description: SLES 11 SP3 kernel 3.0.101-0.47.50.1 with NFS4 panics

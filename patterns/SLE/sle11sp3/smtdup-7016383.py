@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Duplicate SMT Entries
 # Description: smt-sync fails with duplicate entry SLE11SP3

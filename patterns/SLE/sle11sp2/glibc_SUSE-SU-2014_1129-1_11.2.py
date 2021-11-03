@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for glibc SUSE-SU-2014:1129-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2 LTSS

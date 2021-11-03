@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Detect audit message bug
 # Description: Log files are flooded when enabling audit servers

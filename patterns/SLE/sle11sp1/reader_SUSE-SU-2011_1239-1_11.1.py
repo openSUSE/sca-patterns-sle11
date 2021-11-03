@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for Reader SUSE-SU-2011:1239-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1

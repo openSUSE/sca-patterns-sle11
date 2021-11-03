@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       SLES NFS Mounts Hanging
 # Description: SLES 11 NFS client mounts hang when using kernel 3.0.80-x

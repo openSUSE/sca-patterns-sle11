@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       VNC fails on SLE11 with Java 8
 # Description: Error:access denied java.net.SocketPermission

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       vx_iget - inode table overflow
 # Description: Full error is vxfs: msgcnt 637 mesg 014: V-2-14: vx_iget - inode table overflow and can be seen in /var/log/warn and /var/log/messages

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for kernel SUSE-SU-2013:0786-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2

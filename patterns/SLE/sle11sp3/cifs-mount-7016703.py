@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       cifs mounts broken
 # Description: Kernel 3.0.101-0.47.55 cifs mounts broken

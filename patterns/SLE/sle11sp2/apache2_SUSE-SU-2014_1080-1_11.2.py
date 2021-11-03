@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for apache2 SUSE-SU-2014:1080-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2 LTSS

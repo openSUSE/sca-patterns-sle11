@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for bind SUSE-SU-2015:1304-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2 LTSS

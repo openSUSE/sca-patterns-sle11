@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       PHP53 SA Important SUSE-SU-2014:0869-1
 # Description: fixes four vulnerabilities

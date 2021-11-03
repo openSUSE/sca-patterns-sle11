@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Check BONDING_MASTER_UP_ENSLAVE
 # Description: Bond not keeping MTU of 9000 after ifdown/ifup - See also BONDING_MASTER_UP_ENSLAVE option

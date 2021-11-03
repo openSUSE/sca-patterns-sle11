@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       qla2xxx: Ramping down queue depth
 # Description: SLES 11 SP3 introduced the message

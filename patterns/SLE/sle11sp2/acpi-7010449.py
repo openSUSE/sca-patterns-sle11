@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Check ACPI Errors
 # Description: Frequent ACPI errors starting with SMBus or IPMI write requires Buffer of length 42

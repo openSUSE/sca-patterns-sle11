@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Xalan SA Important SUSE-SU-2014:0870-1
 # Description: fixes one vulnerability

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Check Sandy Bridge GPU Lock ups
 # Description: Random lock up or hang when in Gnome or KDE

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       NFS Directory Listing Performance
 # Description: Directory listing on NFS mount takes excessive time

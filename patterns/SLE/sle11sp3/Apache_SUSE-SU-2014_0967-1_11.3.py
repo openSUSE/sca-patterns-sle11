@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for Apache SUSE-SU-2014:0967-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

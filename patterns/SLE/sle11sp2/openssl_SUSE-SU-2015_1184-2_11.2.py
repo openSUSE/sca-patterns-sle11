@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for OpenSSL SUSE-SU-2015:1184-2
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2 LTSS

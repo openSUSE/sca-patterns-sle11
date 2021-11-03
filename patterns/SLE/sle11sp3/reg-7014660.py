@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       The regcode is locked by another email address
 # Description: The regcode is locked by another email address, needs to be fixed in NCC.

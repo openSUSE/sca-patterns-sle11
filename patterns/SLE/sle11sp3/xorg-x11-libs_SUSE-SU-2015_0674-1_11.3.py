@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for xorg-x11-libs SUSE-SU-2015:0674-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

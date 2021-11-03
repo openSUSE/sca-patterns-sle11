@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for GnuTLS SUSE-SU-2013:1060-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for xorg-x11-libX11 SUSE-SU-2020:14447-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4 LTSS

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for MySQL SUSE-SU-2015:0620-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

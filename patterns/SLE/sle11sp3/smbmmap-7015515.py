@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Samba response on s390
 # Description: Samba running on s390 system stops responding and needs to be restarted

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for PHP SUSE-SU-2015:0436-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

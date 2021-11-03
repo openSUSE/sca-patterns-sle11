@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for PHP5 SUSE-SU-2012:0598-2
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1

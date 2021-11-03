@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Microcode causes hang
 # Description: SLES11SP3 HP (any model) Gen9 systems crashing after installing latest updates
