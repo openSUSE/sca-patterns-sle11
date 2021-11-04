@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Check kernel device usage
 # Description: SLE11 update reports unreliable mount system found

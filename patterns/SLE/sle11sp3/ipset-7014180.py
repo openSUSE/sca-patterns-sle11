@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Using ipset results in error
 # Description: Using ipset to create user-defined IP sets for iptables results in error

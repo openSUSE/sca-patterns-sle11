@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       LZO SA Important SUSE-SU-2014:0904-1
 # Description: fixes one vulnerability

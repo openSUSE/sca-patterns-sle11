@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       ACPI 5.0 on SLE11
 # Description: SLES 11 reports an ACPI warning message on systems supporting ACPI 5.0

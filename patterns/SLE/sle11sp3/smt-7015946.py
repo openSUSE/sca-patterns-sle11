@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Custom repos fail with SMT
 # Description: smt-setup-custom-repos fails with mysql::db error

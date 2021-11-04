@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for gstreamer-0_10-plugins-bad SUSE-SU-2015:0921-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

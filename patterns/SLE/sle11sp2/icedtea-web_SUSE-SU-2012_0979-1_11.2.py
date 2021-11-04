@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for icedtea-web SUSE-SU-2012:0979-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2

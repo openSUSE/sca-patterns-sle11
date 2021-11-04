@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Kernel SA Important SUSE-SU-2014:0910-1
 # Description: solves 29 vulnerabilities and has 76 fixes, SUSE-SU-2014:0910-1, SUSE-SU-2014:0911-1, SUSE-SU-2014:0912-1

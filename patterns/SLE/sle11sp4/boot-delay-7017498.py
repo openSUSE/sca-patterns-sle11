@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Kernel boot delay
 # Description: Delayed boot after updating to kernel version 3.0.101-71

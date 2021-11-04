@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for cups SUSE-SU-2020:14341-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4 LTSS

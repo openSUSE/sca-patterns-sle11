@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for X11 SUSE-SU-2011:1035-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Check Xen kdump memory configuration
 # Description: Could not find a free area of memory of a000 bytes

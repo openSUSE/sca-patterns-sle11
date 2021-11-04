@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       PHP5 SA Important SUSE-SU-2014:0868-1
 # Description: fixes two vulnerabilities

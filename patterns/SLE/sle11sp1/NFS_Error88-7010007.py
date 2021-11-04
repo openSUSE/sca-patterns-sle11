@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       NFS transfers failing with RPC error 88 (ENOTSOCK)
 # Description: NFS transfers failing with RPC error 88 (ENOTSOCK) SLES 11 sp1 issue patch in kernel 2.6.32.54-0.3.1.

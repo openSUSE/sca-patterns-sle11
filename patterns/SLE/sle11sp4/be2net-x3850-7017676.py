@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       System crash with be2net
 # Description: System may crash if the kernel module be2net is loaded
@@ -76,7 +76,7 @@ def be2netLoaded():
 ##############################################################################
 
 SYSTEM = SUSE.getBasicVirtualization()
-if 'Hardware' not in SYSTEM.keys():
+if 'Hardware' not in list(SYSTEM.keys()):
 	Core.updateStatus(Core.ERROR, "ERROR: Cannot detect hardware, aborting")
 elif "x3850 x6" in SYSTEM['Hardware'].lower():
 	RPM_NAME='elx-be2net-kmp'

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       vmware guest kernel crashes
 # Description: SLES11 SP3 VMware guest crashes with kernel BUG at ../blk-core.c:2392

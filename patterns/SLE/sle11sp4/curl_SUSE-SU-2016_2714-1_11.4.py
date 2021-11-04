@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for curl SUSE-SU-2016:2714-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4

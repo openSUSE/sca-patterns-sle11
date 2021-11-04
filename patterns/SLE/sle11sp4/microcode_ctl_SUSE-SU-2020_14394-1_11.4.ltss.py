@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Moderate Security Announcement for microcode_ctl SUSE-SU-2020:14394-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4 LTSS

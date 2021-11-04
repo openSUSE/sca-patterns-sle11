@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for Java SUSE-SU-2013:0440-3
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1 LTSS

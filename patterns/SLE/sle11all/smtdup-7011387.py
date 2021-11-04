@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Checking NCCRegTools Duplicates 699
 # Description: SMT reports duplicate registration database entries

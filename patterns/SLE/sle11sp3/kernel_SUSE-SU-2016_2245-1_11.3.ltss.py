@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for Kernel SUSE-SU-2016:2245-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3 LTSS

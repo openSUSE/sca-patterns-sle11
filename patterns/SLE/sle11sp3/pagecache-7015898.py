@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Page cache limit check
 # Description: Memory corruption regression with kernel 3.0.101-0.35 and using pagecache limit

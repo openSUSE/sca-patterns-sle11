@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for OpenJDK SUSE-SU-2012:1148-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2

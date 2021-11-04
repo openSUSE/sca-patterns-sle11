@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Kernel failure from swapon
 # Description: SLES11SP2 crashs on boot with "Bug: Soft lock up - CPU#0 stuck for 22s! [swapon:472]"

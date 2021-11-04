@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       shim for upgrade
 # Description: Upgrading to SLE12 SP2 with UEFI generates shim error

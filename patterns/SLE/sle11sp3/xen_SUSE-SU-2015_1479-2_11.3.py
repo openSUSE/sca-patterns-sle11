@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for xen SUSE-SU-2015:1479-2
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

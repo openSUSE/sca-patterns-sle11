@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Critical Security Announcement for Samba SUSE-SU-2012:0502-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP2

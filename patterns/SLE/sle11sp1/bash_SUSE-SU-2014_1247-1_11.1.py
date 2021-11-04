@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for bash SUSE-SU-2014:1247-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1 LTSS

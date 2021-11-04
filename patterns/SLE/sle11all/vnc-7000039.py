@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       VNC Connection Failures
 # Description: VNC connection fails with Invalid Protocol

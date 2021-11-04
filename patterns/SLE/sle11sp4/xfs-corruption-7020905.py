@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       XFS Filesystem Corruption
 # Description: XFS filesystem corruption after update to Kernel 3.0.101-100.1

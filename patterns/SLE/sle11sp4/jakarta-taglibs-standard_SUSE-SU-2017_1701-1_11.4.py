@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for jakarta-taglibs-standard SUSE-SU-2017:1701-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for tomcat6 SUSE-SU-2016:0839-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP4

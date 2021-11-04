@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for bsdtar SUSE-SU-2016:1939-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP3

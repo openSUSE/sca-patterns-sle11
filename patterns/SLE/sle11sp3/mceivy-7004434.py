@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       mcelog fails to start in VMware environments
 # Description: mcelog fails to start in VMware environments utilizing Ivy and Sandy Bridge CPUs

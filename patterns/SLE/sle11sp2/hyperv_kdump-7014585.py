@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       kdump fails on Hyper-V
 # Description: Confirm valid configuration

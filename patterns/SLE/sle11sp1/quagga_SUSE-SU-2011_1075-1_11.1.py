@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Title:       Important Security Announcement for quagga SUSE-SU-2011:1075-1
 # Description: Security fixes for SUSE Linux Enterprise 11 SP1

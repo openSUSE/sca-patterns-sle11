@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Xen DomU fails to boot
 # Description: Not able to load or install a DomU (Guest machine) using a disk from Multipath

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # Title:       Checks for faulty Intel chipsets
 # Description: Faulty Intel chipsets cause problems with interrupt remapping
