@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu May  5 18:24:40 UTC 2022 - Jason Record <jason.record@suse.com>
+
+- Changes in version 1.5.1
+  - New security announcement patterns (5)
+    + May 2022 (5) for SUSE-SU-2022:14938-1 SUSE-SU-2022:14943-1 SUSE-SU-2022:14936-1 SUSE-SU-2022:14941-1 SUSE-SU-2022:14951-1
+
+-------------------------------------------------------------------
 Tue Mar  8 16:32:14 UTC 2022 - Jason Record <jason.record@suse.com>
 
 - Removed OES dependent patterns (bsc#1196873)
