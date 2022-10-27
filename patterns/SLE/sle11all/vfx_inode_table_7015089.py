@@ -2,11 +2,10 @@
 
 # Title:       vx_iget - inode table overflow
 # Description: Full error is vxfs: msgcnt 637 mesg 014: V-2-14: vx_iget - inode table overflow and can be seen in /var/log/warn and /var/log/messages
-# Modified:    2014 May 21
-# Version:     1.2
+# Modified:    2022 Oct 27
 #
 ##############################################################################
-# Copyright (C) 2014 SUSE LLC
+# Copyright (C) 2014,2022 SUSE LLC
 ##############################################################################
 #
 # This program is free software; you can redistribute it and/or modify
@@ -22,7 +21,7 @@
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 #
 #  Authors/Contributors:
-#   Sean Barlow (sbarlow@novell.com)
+#   Jason Record <jason.record@suse.com>
 #
 ##############################################################################
 
@@ -43,7 +42,7 @@ PATTERN_ID = os.path.basename(__file__)
 PRIMARY_LINK = "META_LINK_TID"
 OVERALL = Core.TEMP
 OVERALL_INFO = "NOT SET"
-OTHER_LINKS = "META_LINK_TID=https://www.suse.com/support/kb/doc.php?id=7015089|META_LINK_Symantec1=http://www.symantec.com/business/support/index?page=content&id=TECH22652|META_LINK_Symantec2=http://www.symantec.com/business/support/index?page=content&id=TECH172133"
+OTHER_LINKS = "META_LINK_TID=https://www.suse.com/support/kb/doc.php?id=7015089"
 
 Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, OVERALL, OVERALL_INFO, OTHER_LINKS)
 
