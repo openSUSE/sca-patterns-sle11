@@ -44,7 +44,7 @@ PATTERN_ID = os.path.basename(__file__)
 PRIMARY_LINK = "META_LINK_TID1"
 OVERALL = Core.TEMP
 OVERALL_INFO = "NOT SET"
-OTHER_LINKS = "META_LINK_TID=http://www.novell.com/support/kb/doc.php?id=3301593|META_LINK_TID1=http://www.novell.com/support/kb/doc.php?id=7010249"
+OTHER_LINKS = "META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=3301593|META_LINK_TID1=http://www.suse.com/support/kb/doc.php?id=7010249"
 
 Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, OVERALL, OVERALL_INFO, OTHER_LINKS)
 

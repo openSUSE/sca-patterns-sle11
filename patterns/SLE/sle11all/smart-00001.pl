@@ -2,10 +2,10 @@
 
 # Title:       Check SMART data for hard disk errors
 # Description: Using smartmontools to detect impending hard disk failure
-# Modified:    2013 Jun 27
+# Modified:    2022 Oct 27
 
 ##############################################################################
-#  Copyright (C) 2013,2012 SUSE LLC
+#  Copyright (C) 2013,2022 SUSE LLC
 ##############################################################################
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 #
 
 #  Authors/Contributors:
-#   Jason Record (jrecord@suse.com)
+#   Jason Record <jason.record@suse.com>
 
 ##############################################################################
 
@@ -48,8 +48,7 @@ use constant ERROR_THRESHOLD => 50000;
 	PROPERTY_NAME_PRIMARY_LINK."=META_LINK_TID",
 	PROPERTY_NAME_OVERALL."=$GSTATUS",
 	PROPERTY_NAME_OVERALL_INFO."=None",
-	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=7004508",
-	"META_LINK_MISC=http://smartmontools.sourceforge.net/"
+	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=7004508"
 );
 
 ##############################################################################

@@ -47,7 +47,7 @@ use SDP::SUSE;
 	PROPERTY_NAME_OVERALL."=$GSTATUS",
 	PROPERTY_NAME_OVERALL_INFO."=None",
 	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=7001417",
-	"META_LINK_MISC=http://www.novell.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7007601"
+	"META_LINK_MISC=http://www.suse.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7007601"
 );
 
 my $CHECK_PACKAGE = "cpuset";

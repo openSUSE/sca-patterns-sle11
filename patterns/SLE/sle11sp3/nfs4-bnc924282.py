@@ -44,7 +44,7 @@ PATTERN_ID = os.path.basename(__file__)
 PRIMARY_LINK = "META_LINK_BUG"
 OVERALL = Core.TEMP
 OVERALL_INFO = "NOT SET"
-OTHER_LINKS = "META_LINK_BUG=https://bugzilla.novell.com/show_bug.cgi?id=924282"
+OTHER_LINKS = "META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=924282"
 
 Core.init(META_CLASS, META_CATEGORY, META_COMPONENT, PATTERN_ID, PRIMARY_LINK, OVERALL, OVERALL_INFO, OTHER_LINKS)
 

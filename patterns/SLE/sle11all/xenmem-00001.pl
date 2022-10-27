@@ -47,8 +47,8 @@ use SDP::SUSE;
 	PROPERTY_NAME_OVERALL."=$GSTATUS",
 	PROPERTY_NAME_OVERALL_INFO."=None",
 	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=3559698",
-	"META_LINK_BUG=https://bugzilla.novell.com/show_bug.cgi?id=220421",
-	"META_LINK_MISC=http://www.novell.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7001362&sliceId=&docTypeID=DT_TID_1_1"
+	"META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=220421",
+	"META_LINK_MISC=http://www.suse.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7001362&sliceId=&docTypeID=DT_TID_1_1"
 );
 
 ##############################################################################

@@ -2,10 +2,10 @@
 
 # Title:       Update registration fails with curl error
 # Description: Update/registration failing with "Error occurred while setting download (curl) options"
-# Modified:    2013 Jun 25
+# Modified:    2022 Oct 27
 
 ##############################################################################
-#  Copyright (C) 2013 SUSE LLC
+#  Copyright (C) 2013,2022 SUSE LLC
 ##############################################################################
 #
 #  This program is free software; you can redistribute it and/or modify
@@ -22,7 +22,7 @@
 #
 
 #  Authors/Contributors:
-#   Jason Record (jrecord@suse.com)
+#   Jason Record <jason.record@suse.com>
 
 ##############################################################################
 
@@ -47,7 +47,6 @@ use SDP::SUSE;
 	PROPERTY_NAME_PRIMARY_LINK."=META_LINK_TID",
 	PROPERTY_NAME_OVERALL."=$GSTATUS",
 	PROPERTY_NAME_OVERALL_INFO."=None",
-	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=7004839",
 	"META_LINK_TID2=http://www.suse.com/support/kb/doc.php?id=3303599"
 );
 

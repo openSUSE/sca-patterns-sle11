@@ -46,7 +46,7 @@ use SDP::SUSE;
 "OVERALL=$GSTATUS",
 "OVERALL_INFO=NOT SET",
 "META_LINK_TID=https://www.suse.com/support/kb/doc.php?id=7015062",
-"META_LINK_BUG=https://bugzilla.novell.com/show_bug.cgi?id=875798",
+"META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=875798",
 "META_LINK_Security=http://lists.opensuse.org/opensuse-security-announce/2014-05/msg00007.html",
 "META_LINK_TID2=https://www.suse.com/support/kb/doc.php?id=7015061",
 );

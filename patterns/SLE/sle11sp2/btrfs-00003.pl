@@ -48,7 +48,7 @@ use constant BTRFS_FIXED_VERSION => '3.0.58-0.6';
 	PROPERTY_NAME_OVERALL."=$GSTATUS",
 	PROPERTY_NAME_OVERALL_INFO."=None",
 	"META_LINK_TID=http://www.suse.com/support/kb/doc.php?id=7004074",
-	"META_LINK_BUG=https://bugzilla.novell.com/show_bug.cgi?id=756628"
+	"META_LINK_BUG=https://bugzilla.suse.com/show_bug.cgi?id=756628"
 );
 
 ##############################################################################
