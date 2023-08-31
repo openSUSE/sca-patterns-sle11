@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Thu Aug 31 15:43:16 UTC 2023 - jason.record@suse.com
+
+- Changes in version 1.5.3
+  - New security announcement patterns as of Aug 2023 (12) (bsc#1214837)
+    SUSE-SU-2023:2506-1 SUSE-SU-2023:2506-1 SUSE-SU-2023:3333-1 SUSE-SU-2023:3333-1 SUSE-SU-2023:2471-1
+    SUSE-SU-2023:2471-1 SUSE-SU-2023:2972-1 SUSE-SU-2023:2972-1 SUSE-SU-2023:2469-1 SUSE-SU-2023:2469-1
+    SUSE-SU-2023:2973-1 SUSE-SU-2023:2973-1
+
+-------------------------------------------------------------------
 Tue Jun 13 20:59:02 UTC 2023 - jason.record@suse.com
 
 - Changes in version 1.5.2
